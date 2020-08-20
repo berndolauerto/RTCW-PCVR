@@ -1,0 +1,11 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  util_str.cpp
+  splines.cpp
+  q_shared.cpp
+  q_parse.cpp
+  math_vector.cpp
+  math_quaternion.cpp
+  math_matrix.cpp
+  math_angles.cpp
+  Generating Code...
+  Splines.vcxproj -> E:\RTCW-SP-master\src\splines\.\Debug\Splines.lib

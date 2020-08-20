@@ -1,0 +1,81 @@
+﻿  tr_scene.c
+e:\rtcw-sp-master\src\rtcwvr\mathlib.h(39): warning C4005: 'RAD2DEG': macro redefinition
+  e:\rtcw-sp-master\src\game\q_shared.h(487): note: see previous definition of 'RAD2DEG'
+e:\rtcw-sp-master\src\rtcwvr\mathlib.h(40): warning C4005: 'DEG2RAD': macro redefinition
+  e:\rtcw-sp-master\src\game\q_shared.h(486): note: see previous definition of 'DEG2RAD'
+e:\rtcw-sp-master\src\rtcwvr\mathlib.h(58): warning C4005: 'nanmask': macro redefinition
+  e:\rtcw-sp-master\src\game\q_shared.h(494): note: see previous definition of 'nanmask'
+e:\rtcw-sp-master\src\rtcwvr\mathlib.h(61): warning C4005: 'IS_NAN': macro redefinition
+  e:\rtcw-sp-master\src\game\q_shared.h(495): note: see previous definition of 'IS_NAN'
+e:\rtcw-sp-master\src\rtcwvr\mathlib.h(74): warning C4005: 'Vector4Copy': macro redefinition
+  e:\rtcw-sp-master\src\game\q_shared.h(556): note: see previous definition of 'Vector4Copy'
+e:\rtcw-sp-master\src\rtcwvr\mathlib.h(88): warning C4005: 'Vector4Set': macro redefinition
+  e:\rtcw-sp-master\src\game\q_shared.h(555): note: see previous definition of 'Vector4Set'
+e:\rtcw-sp-master\src\rtcwvr\mathlib.h(98): warning C4005: 'VectorMA': macro redefinition
+  e:\rtcw-sp-master\src\game\q_shared.h(527): note: see previous definition of 'VectorMA'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(34): error C2061: syntax error: identifier 'tracking'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(34): error C2059: syntax error: ';'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(54): error C2146: syntax error: missing ')' before identifier 'q'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(54): error C2061: syntax error: identifier 'q'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(54): error C2059: syntax error: ';'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(54): error C2059: syntax error: ','
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(54): error C2059: syntax error: ')'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(55): error C2143: syntax error: missing ')' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(55): error C2143: syntax error: missing '{' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(55): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(55): error C2143: syntax error: missing ';' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(55): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(55): warning C4142: 'uint32_t': benign redefinition of type
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\stdint.h(23): note: see declaration of 'uint32_t'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(55): error C2370: 'uint32_t': redefinition; different storage class
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\stdint.h(23): note: see declaration of 'uint32_t'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(55): error C2146: syntax error: missing ';' before identifier 'button'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(55): error C2059: syntax error: 'type'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(55): error C2059: syntax error: ')'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(56): error C2143: syntax error: missing ')' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(56): error C2081: 'ovrInputStateTrackedRemote': name in formal parameter list illegal
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(56): error C2143: syntax error: missing '{' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(56): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(56): error C2143: syntax error: missing ';' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(56): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+e:\rtcw-sp-master\src\rtcwvr\vrcommon.h(56): error C2059: syntax error: ')'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(16): error C2061: syntax error: identifier 'leftTrackedRemoteState_old'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(16): error C2059: syntax error: ';'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(17): error C2061: syntax error: identifier 'leftTrackedRemoteState_new'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(17): error C2059: syntax error: ';'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(18): error C2061: syntax error: identifier 'leftRemoteTracking_new'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(18): error C2059: syntax error: ';'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(20): error C2061: syntax error: identifier 'rightTrackedRemoteState_old'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(20): error C2059: syntax error: ';'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(21): error C2061: syntax error: identifier 'rightTrackedRemoteState_new'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(21): error C2059: syntax error: ';'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(22): error C2061: syntax error: identifier 'rightRemoteTracking_new'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(22): error C2059: syntax error: ';'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(24): error C2061: syntax error: identifier 'controllerIDs'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(24): error C2059: syntax error: ';'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(24): error C2059: syntax error: '['
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(36): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(36): error C2143: syntax error: missing ')' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(36): error C2143: syntax error: missing '{' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(36): error C2059: syntax error: 'type'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(36): error C2059: syntax error: ')'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(38): error C2143: syntax error: missing ')' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(38): error C2143: syntax error: missing '{' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(38): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(38): error C2143: syntax error: missing ';' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(38): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(39): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(39): error C2143: syntax error: missing ';' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(39): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(40): error C2059: syntax error: 'type'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(40): error C2059: syntax error: ')'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(42): error C2143: syntax error: missing ')' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(42): error C2143: syntax error: missing '{' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(42): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(42): error C2143: syntax error: missing ';' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(42): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(43): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(43): error C2143: syntax error: missing ';' before '*'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(43): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(44): error C2059: syntax error: 'type'
+e:\rtcw-sp-master\src\rtcwvr\vrinput.h(44): error C2059: syntax error: ')'

@@ -1,0 +1,15 @@
+﻿  cl_input.c
+e:\rtcw-sp-master\src\client\cl_input.c(436): error C2065: 'old_move': undeclared identifier
+e:\rtcw-sp-master\src\client\cl_input.c(436): error C2224: left of '.yaw' must have struct/union type
+e:\rtcw-sp-master\src\client\cl_input.c(437): error C2065: 'new_move': undeclared identifier
+e:\rtcw-sp-master\src\client\cl_input.c(437): error C2224: left of '.yaw' must have struct/union type
+e:\rtcw-sp-master\src\client\cl_input.c(445): error C2065: 'new_move': undeclared identifier
+e:\rtcw-sp-master\src\client\cl_input.c(445): error C2224: left of '.pitch' must have struct/union type
+e:\rtcw-sp-master\src\client\cl_input.c(447): error C2065: 'new_move': undeclared identifier
+e:\rtcw-sp-master\src\client\cl_input.c(447): error C2224: left of '.roll' must have struct/union type
+e:\rtcw-sp-master\src\client\cl_input.c(597): error C2065: 'new_move': undeclared identifier
+e:\rtcw-sp-master\src\client\cl_input.c(597): error C2224: left of '.side' must have struct/union type
+e:\rtcw-sp-master\src\client\cl_input.c(597): error C2224: left of '.pos_side' must have struct/union type
+e:\rtcw-sp-master\src\client\cl_input.c(597): error C2198: 'ClampChar': too few arguments for call
+e:\rtcw-sp-master\src\client\cl_input.c(872): error C2065: 'old_move': undeclared identifier
+e:\rtcw-sp-master\src\client\cl_input.c(872): error C2065: 'new_move': undeclared identifier
