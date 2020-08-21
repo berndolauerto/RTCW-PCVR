@@ -1,5 +1,23 @@
 NOT WORKING PCVR FORK OF Dr. BEEFS RTCW QUEST. 
 
+![tried](https://github.com/berndolauerto/RTCW-PCVR/assets/tried.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ![RTCW Banner](https://github.com/DrBeef/RTCWQuest/blob/master/assets/banner.jpg)
