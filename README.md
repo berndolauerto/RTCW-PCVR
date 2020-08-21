@@ -1,6 +1,6 @@
 NOT WORKING PCVR FORK OF Dr. BEEFS RTCW QUEST. 
 
-![tried](https://github.com/berndolauerto/RTCW-PCVR/assets/tried.jpg)
+![tried](https://github.com/berndolauerto/RTCW-PCVR/blob/master/assets/tried.jpg)
 
 
 
