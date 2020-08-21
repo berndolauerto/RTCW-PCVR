@@ -1,15 +1,28 @@
-﻿  cl_input.c
-e:\rtcw-sp-master\src\client\cl_input.c(436): error C2065: 'old_move': undeclared identifier
-e:\rtcw-sp-master\src\client\cl_input.c(436): error C2224: left of '.yaw' must have struct/union type
-e:\rtcw-sp-master\src\client\cl_input.c(437): error C2065: 'new_move': undeclared identifier
-e:\rtcw-sp-master\src\client\cl_input.c(437): error C2224: left of '.yaw' must have struct/union type
-e:\rtcw-sp-master\src\client\cl_input.c(445): error C2065: 'new_move': undeclared identifier
-e:\rtcw-sp-master\src\client\cl_input.c(445): error C2224: left of '.pitch' must have struct/union type
-e:\rtcw-sp-master\src\client\cl_input.c(447): error C2065: 'new_move': undeclared identifier
-e:\rtcw-sp-master\src\client\cl_input.c(447): error C2224: left of '.roll' must have struct/union type
-e:\rtcw-sp-master\src\client\cl_input.c(597): error C2065: 'new_move': undeclared identifier
-e:\rtcw-sp-master\src\client\cl_input.c(597): error C2224: left of '.side' must have struct/union type
-e:\rtcw-sp-master\src\client\cl_input.c(597): error C2224: left of '.pos_side' must have struct/union type
-e:\rtcw-sp-master\src\client\cl_input.c(597): error C2198: 'ClampChar': too few arguments for call
-e:\rtcw-sp-master\src\client\cl_input.c(872): error C2065: 'old_move': undeclared identifier
-e:\rtcw-sp-master\src\client\cl_input.c(872): error C2065: 'new_move': undeclared identifier
+﻿  cl_cgame.c
+  cl_cin.c
+e:\rtcwquest\src\client\cl_cin.c(1086): warning C4389: '==': signed/unsigned mismatch
+e:\rtcwquest\src\client\cl_cin.c(1576): warning C4389: '!=': signed/unsigned mismatch
+  cl_input.c
+e:\rtcwquest\src\client\cl_input.c(436): error C2065: 'old_move': undeclared identifier
+e:\rtcwquest\src\client\cl_input.c(436): error C2224: left of '.yaw' must have struct/union type
+e:\rtcwquest\src\client\cl_input.c(437): error C2065: 'new_move': undeclared identifier
+e:\rtcwquest\src\client\cl_input.c(437): error C2224: left of '.yaw' must have struct/union type
+e:\rtcwquest\src\client\cl_input.c(445): error C2065: 'new_move': undeclared identifier
+e:\rtcwquest\src\client\cl_input.c(445): error C2224: left of '.pitch' must have struct/union type
+e:\rtcwquest\src\client\cl_input.c(447): error C2065: 'new_move': undeclared identifier
+e:\rtcwquest\src\client\cl_input.c(447): error C2224: left of '.roll' must have struct/union type
+e:\rtcwquest\src\client\cl_input.c(596): error C2065: 'new_move': undeclared identifier
+e:\rtcwquest\src\client\cl_input.c(596): error C2224: left of '.forward' must have struct/union type
+e:\rtcwquest\src\client\cl_input.c(596): error C2224: left of '.pos_forward' must have struct/union type
+e:\rtcwquest\src\client\cl_input.c(596): error C2198: 'ClampChar': too few arguments for call
+e:\rtcwquest\src\client\cl_input.c(597): error C2065: 'new_move': undeclared identifier
+e:\rtcwquest\src\client\cl_input.c(597): error C2224: left of '.side' must have struct/union type
+e:\rtcwquest\src\client\cl_input.c(597): error C2224: left of '.pos_side' must have struct/union type
+e:\rtcwquest\src\client\cl_input.c(597): error C2198: 'ClampChar': too few arguments for call
+e:\rtcwquest\src\client\cl_input.c(872): error C2065: 'old_move': undeclared identifier
+e:\rtcwquest\src\client\cl_input.c(872): error C2065: 'new_move': undeclared identifier
+  cl_keys.c
+  cm_polylib.c
+  sv_main.c
+  Generating Code...
+e:\rtcwquest\src\client\cl_cgame.c(908): warning C4706: assignment within conditional expression

@@ -10,14 +10,14 @@
   be_aas_route.c
   be_aas_routealt.c
   be_aas_routetable.c
-e:\rtcw-sp-master\src\botlib\be_aas_routetable.c(172): warning C4245: '=': conversion from 'int' to 'unsigned short', signed/unsigned mismatch
-e:\rtcw-sp-master\src\botlib\be_aas_routetable.c(322): warning C4459: declaration of 'routetable' hides global declaration
-  e:\rtcw-sp-master\src\botlib\be_aas_routetable.c(147): note: see declaration of 'routetable'
-e:\rtcw-sp-master\src\botlib\be_aas_routetable.c(832): warning C4456: declaration of 'child' hides previous local declaration
-  e:\rtcw-sp-master\src\botlib\be_aas_routetable.c(497): note: see declaration of 'child'
+e:\rtcwquest\src\botlib\be_aas_routetable.c(172): warning C4245: '=': conversion from 'int' to 'unsigned short', signed/unsigned mismatch
+e:\rtcwquest\src\botlib\be_aas_routetable.c(322): warning C4459: declaration of 'routetable' hides global declaration
+  e:\rtcwquest\src\botlib\be_aas_routetable.c(147): note: see declaration of 'routetable'
+e:\rtcwquest\src\botlib\be_aas_routetable.c(832): warning C4456: declaration of 'child' hides previous local declaration
+  e:\rtcwquest\src\botlib\be_aas_routetable.c(497): note: see declaration of 'child'
   be_aas_sample.c
   be_ai_char.c
-e:\rtcw-sp-master\src\botlib\be_ai_char.c(240): warning C4389: '==': signed/unsigned mismatch
+e:\rtcwquest\src\botlib\be_ai_char.c(240): warning C4389: '==': signed/unsigned mismatch
   be_ai_chat.c
   be_ai_gen.c
   be_ai_goal.c
@@ -25,8 +25,8 @@ e:\rtcw-sp-master\src\botlib\be_ai_char.c(240): warning C4389: '==': signed/unsi
   be_ai_weap.c
   be_ai_weight.c
   Generating Code...
-e:\rtcw-sp-master\src\botlib\be_aas_routetable.c(1082): warning C4706: assignment within conditional expression
-e:\rtcw-sp-master\src\botlib\be_aas_routetable.c(969): warning C4706: assignment within conditional expression
+e:\rtcwquest\src\botlib\be_aas_routetable.c(1082): warning C4706: assignment within conditional expression
+e:\rtcwquest\src\botlib\be_aas_routetable.c(969): warning C4706: assignment within conditional expression
   Compiling...
   be_ea.c
   be_interface.c
@@ -35,9 +35,9 @@ e:\rtcw-sp-master\src\botlib\be_aas_routetable.c(969): warning C4706: assignment
   l_log.c
   l_memory.c
   l_precomp.c
-e:\rtcw-sp-master\src\botlib\l_precomp.c(725): warning C4133: 'function': incompatible types - from 'unsigned long *' to 'const time_t *const '
-e:\rtcw-sp-master\src\botlib\l_precomp.c(740): warning C4133: 'function': incompatible types - from 'unsigned long *' to 'const time_t *const '
+e:\rtcwquest\src\botlib\l_precomp.c(725): warning C4133: 'function': incompatible types - from 'unsigned long *' to 'const time_t *const '
+e:\rtcwquest\src\botlib\l_precomp.c(740): warning C4133: 'function': incompatible types - from 'unsigned long *' to 'const time_t *const '
   l_script.c
   l_struct.c
   Generating Code...
-  botlib.vcxproj -> E:\RTCW-SP-master\src\botlib\.\Release\botlib.lib
+  botlib.vcxproj -> E:\RTCWQuest\src\botlib\.\Release\botlib.lib

@@ -31,7 +31,7 @@ If you have questions concerning this license or the applicable additional terms
 #include "client.h"
 
 #include "../game/botlib.h"
-#include "../../../RTCWVR/VrClientInfo.h"
+#include "../RTCWVR/VrClientInfo.h"
 
 extern vr_client_info_t vr;
 

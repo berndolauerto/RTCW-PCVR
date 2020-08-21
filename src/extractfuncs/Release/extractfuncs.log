@@ -2,13 +2,13 @@
   l_log.c
   l_memory.c
   l_precomp.c
-e:\rtcw-sp-master\src\extractfuncs\l_precomp.c(132): warning C4013: 'tolower' undefined; assuming extern returning int
-e:\rtcw-sp-master\src\extractfuncs\l_precomp.c(143): warning C4013: 'toupper' undefined; assuming extern returning int
-e:\rtcw-sp-master\src\extractfuncs\l_precomp.c(814): warning C4244: '=': conversion from 'time_t' to 'unsigned long', possible loss of data
-e:\rtcw-sp-master\src\extractfuncs\l_precomp.c(815): warning C4133: 'function': incompatible types - from 'unsigned long *' to 'const time_t *const '
-e:\rtcw-sp-master\src\extractfuncs\l_precomp.c(829): warning C4244: '=': conversion from 'time_t' to 'unsigned long', possible loss of data
-e:\rtcw-sp-master\src\extractfuncs\l_precomp.c(830): warning C4133: 'function': incompatible types - from 'unsigned long *' to 'const time_t *const '
+e:\rtcwquest\src\extractfuncs\l_precomp.c(132): warning C4013: 'tolower' undefined; assuming extern returning int
+e:\rtcwquest\src\extractfuncs\l_precomp.c(143): warning C4013: 'toupper' undefined; assuming extern returning int
+e:\rtcwquest\src\extractfuncs\l_precomp.c(814): warning C4244: '=': conversion from 'time_t' to 'unsigned long', possible loss of data
+e:\rtcwquest\src\extractfuncs\l_precomp.c(815): warning C4133: 'function': incompatible types - from 'unsigned long *' to 'const time_t *const '
+e:\rtcwquest\src\extractfuncs\l_precomp.c(829): warning C4244: '=': conversion from 'time_t' to 'unsigned long', possible loss of data
+e:\rtcwquest\src\extractfuncs\l_precomp.c(830): warning C4133: 'function': incompatible types - from 'unsigned long *' to 'const time_t *const '
   l_script.c
   Generating Code...
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(E:\RTCW-SP-master\src\extractfuncs\.\Release\extractfuncs.exe) does not match the Linker's OutputFile property value (E:\RTCW-SP-master\src\extractfuncs\extractfuncs.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-  extractfuncs.vcxproj -> E:\RTCW-SP-master\src\extractfuncs\.\Release\extractfuncs.exe
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(E:\RTCWQuest\src\extractfuncs\.\Release\extractfuncs.exe) does not match the Linker's OutputFile property value (E:\RTCWQuest\src\extractfuncs\extractfuncs.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  extractfuncs.vcxproj -> E:\RTCWQuest\src\extractfuncs\.\Release\extractfuncs.exe
