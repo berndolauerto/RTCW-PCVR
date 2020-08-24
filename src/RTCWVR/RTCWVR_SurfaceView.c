@@ -16,37 +16,43 @@ Copyright	:	Copyright 2015 Oculus VR, LLC. All Rights reserved.
 #include <ctype.h>
 #include <stdlib.h>
 #include <time.h>
-#include <unistd.h>
-#include <pthread.h>
-#include <sys/prctl.h>					// for prctl( PR_SET_NAME )
+#include "unistd.h"				// Cactus
+#include "../pthreadsw32/include/pthread.h" 
+// #include <sys/prctl.h>					// for prctl( PR_SET_NAME )
 //#include <android/log.h>
 //#include <android/native_window_jni.h>	// for native window JNI
-//#include <android/input.h>
+#include <windows.h>		// Cactus - Android Stuff
 
 #include "argtable3.h"
 #include "VrInput.h"
 #include "VrCvars.h"
 
-#include <EGL/egl.h>
-#include <EGL/eglext.h>
-#include <GLES3/gl3.h>
-#include <GLES3/gl3ext.h>
+ #include "egl.h"				// Cactus - Android Stuff
+ #include "eglext.h"			// Cactus - Android Stuff
+ #include "GLES3/gl3.h"			// Cactus - Android Stuff
+ #include "GLES3/gl3ext.h"// Cactus - Android Stuff
 
 
-#include "VrApi.h"
-#include "VrApi_Helpers.h"
-#include "VrApi_SystemUtils.h"
-#include "VrApi_Input.h"
-#include "VrApi_Types.h"
 
-#include <src/gl/loader.h>
+// #include "VrApi.h"			// Cactus - Android Stuff
+// #include "VrApi_Helpers.h"		// Cactus - Android Stuff
+// #include "VrApi_SystemUtils.h"		// Cactus - Android Stuff
+// #include "VrApi_Input.h"				// Cactus - Android Stuff
+// #include "VrApi_Types.h"				// Cactus - Android Stuff
 
-//#include <SDL2/SDL.h>
+// #include <src/gl/loader.h>		// Cactus - Android Stuff
+
+//#include <SDL2/SDL.h>		
 //#include <SDL2/SDL_main.h>
-#include <src/client/client.h>
+#include "../client/client.h""
 
 #include "VrCompositor.h"
 #include "VrInput.h"
+
+
+// CACTUS
+#include "../Oculus/Include/OVR_Platform.h"
+#include "../Oculus/Include/OVR_CAPI.h"
 
 #if !defined( EGL_OPENGL_ES3_BIT_KHR )
 #define EGL_OPENGL_ES3_BIT_KHR		0x0040
@@ -1743,6 +1749,15 @@ Activity lifecycle
 */
 
 
+
+
+
+
+/*
+
+
+
+
 jmethodID android_shutdown;
 static JavaVM *jVM;
 static jobject shutdownCallbackObj=0;
@@ -1772,12 +1787,16 @@ int JNI_OnLoad(JavaVM* vm, void* reserved)
 	return JNI_VERSION_1_4;
 }
 
+
+
+
+
 JNIEXPORT jlong JNICALL Java_com_drbeef_rtcwquest_GLES3JNILib_onCreate( JNIEnv * env, jclass activityClass, jobject activity,
 																	   jstring commandLineParams)
 {
 	ALOGV( "    GLES3JNILib::onCreate()" );
 
-	/* the global arg_xxx structs are initialised within the argtable */
+	// the global arg_xxx structs are initialised within the argtable
 	void *argtable[] = {
 			ss   = arg_dbl0("s", "supersampling", "<double>", "super sampling value (e.g. 1.0)"),
             cpu   = arg_int0("c", "cpu", "<int>", "CPU perf index 1-4 (default: 2)"),
@@ -1800,9 +1819,9 @@ JNIEXPORT jlong JNICALL Java_com_drbeef_rtcwquest_GLES3JNILib_onCreate( JNIEnv *
 	argv = malloc(sizeof(char*) * 255);
 	argc = ParseCommandLine(strdup(cmdLine), argv);
 
-	/* verify the argtable[] entries were allocated sucessfully */
+	// verify the argtable[] entries were allocated sucessfully 
 	if (arg_nullcheck(argtable) == 0) {
-		/* Parse the command line as defined by argtable[] */
+		// Parse the command line as defined by argtable[]
 		arg_parse(argc, argv, argtable);
 
         if (ss->count > 0 && ss->dval[0] > 0.0)
@@ -1820,7 +1839,7 @@ JNIEXPORT jlong JNICALL Java_com_drbeef_rtcwquest_GLES3JNILib_onCreate( JNIEnv *
             GPU_LEVEL = gpu->ival[0];
         }
 	}
-
+	
 	initialize_gl4es();
 
 	ovrAppThread * appThread = (ovrAppThread *) malloc( sizeof( ovrAppThread ) );
@@ -1891,6 +1910,11 @@ JNIEXPORT void JNICALL Java_com_drbeef_rtcwquest_GLES3JNILib_onDestroy( JNIEnv *
 	free( appThread );
 }
 
+
+
+*/
+
+
 /*
 ================================================================================
 
@@ -1898,6 +1922,15 @@ Surface lifecycle
 
 ================================================================================
 */
+
+
+
+
+
+/*
+
+
+
 
 JNIEXPORT void JNICALL Java_com_drbeef_rtcwquest_GLES3JNILib_onSurfaceCreated( JNIEnv * env, jobject obj, jlong handle, jobject surface )
 {
@@ -1975,4 +2008,4 @@ JNIEXPORT void JNICALL Java_com_drbeef_rtcwquest_GLES3JNILib_onSurfaceDestroyed(
 	ANativeWindow_release( appThread->NativeWindow );
 	appThread->NativeWindow = NULL;
 }
-
+*/

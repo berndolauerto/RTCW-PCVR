@@ -164,6 +164,9 @@
     <ClCompile Include="Oculus\Windows\OVR_PlatformLoader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RTCWVR\RTCWVR_SurfaceView.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="A3D\a3dWrapperdp.h">
