@@ -384,7 +384,7 @@ cvar_t  *cl_anglespeedkey;
 
 cvar_t  *cl_recoilPitch;
 
-#ifdef __ANDROID__
+
 
 void RTCWVR_GetMove(float *forward, float *side, float *pos_forward, float *pos_side, float *up,
 					float *yaw, float *pitch, float *roll);
@@ -403,7 +403,7 @@ typedef struct {
 vr_move new_move;
 vr_move old_move;
 
-#endif
+
 
 
 /*
@@ -814,12 +814,12 @@ usercmd_t CL_CreateCmd( void ) {
 
 	VectorCopy( cl.viewangles, oldAngles );
 
-#ifdef __ANDROID__
+//#ifdef __ANDROID__
 
 	RTCWVR_GetMove(&new_move.forward, &new_move.side, &new_move.pos_forward, &new_move.pos_side,
 				   &new_move.up, &new_move.yaw, &new_move.pitch, &new_move.roll);
 
-#endif
+//#endif
 
 	// keyboard angle adjustment
 	CL_AdjustAngles();

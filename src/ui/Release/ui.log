@@ -1,19 +1,4 @@
-﻿  bg_misc.c
-  q_math.c
-  q_shared.c
-  ui_atoms.c
-  ui_gameinfo.c
-  ui_main.c
-C:\Unity\RTCW-PCVR\src\ui\ui_main.c(6502,27): warning C4013: "trap_CIN_ShowSoftKeyboard" undefiniert; Annahme: extern mit Rückgabetyp int
-  ui_players.c
-  ui_shared.c
-C:\Unity\RTCW-PCVR\src\ui\ui_shared.c(1613,6): warning C4013: "LOGI" undefiniert; Annahme: extern mit Rückgabetyp int
-C:\Unity\RTCW-PCVR\src\ui\ui_shared.c(4656,10): warning C4101: "tdist": Unreferenzierte lokale Variable
-  ui_syscalls.c
-  ui_util.c
-  Kompilieren...
-  Code wird generiert...
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1288,5): warning MSB8012: TargetPath(C:\Unity\RTCW-PCVR\src\ui\.\Release\ui.dll) entspricht nicht dem OutputFile-Eigenschaftswert (C:\Unity\RTCW-PCVR\src\Release\uix86.dll) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1288,5): warning MSB8012: TargetPath(C:\Unity\RTCW-PCVR\src\ui\.\Release\ui.dll) entspricht nicht dem OutputFile-Eigenschaftswert (C:\Unity\RTCW-PCVR\src\Release\uix86.dll) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1290,5): warning MSB8012: TargetName(ui) entspricht nicht dem OutputFile-Eigenschaftswert (uix86) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
      Bibliothek ".\Release/uix86.lib" und Objekt ".\Release/uix86.exp" werden erstellt.
 ui_shared.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "_LOGI" in Funktion "_Item_SetFocus".

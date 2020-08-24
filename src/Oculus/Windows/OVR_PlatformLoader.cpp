@@ -43,8 +43,8 @@ limitations under the License.
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "OVR_Platform.h"
-#include "OVR_PlatformVersion.h"
+#include "../Include/OVR_Platform.h"
+#include "../Include/OVR_PlatformVersion.h"
 
 #if defined(_MSC_VER)
 #pragma warning(push)

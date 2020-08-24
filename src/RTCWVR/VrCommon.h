@@ -2,7 +2,7 @@
 #define vrcommon_h
 
 #include "../Oculus/Include/OVR_Platform.h"
-
+#include "../Oculus/Include/OVR_CAPI.h"
 
 
 #include "mathlib.h"
@@ -31,7 +31,7 @@ float playerYaw;
 
 qboolean showingScreenLayer;
 
-ovrTracking2 tracking;
+ovrTrackingState tracking;
 
 #define DUCK_NOTDUCKED 0
 #define DUCK_BUTTON 1
@@ -52,8 +52,8 @@ float nonLinearFilter(float in);
 qboolean between(float min, float val, float max);
 void rotateAboutOrigin(float v1, float v2, float rotation, vec2_t out);
 void QuatToYawPitchRoll(ovrQuatf q, vec3_t rotation, vec3_t out);
-void handleTrackedControllerButton(ovrInputStateTrackedRemote * trackedRemoteState, ovrInputStateTrackedRemote * prevTrackedRemoteState, uint32_t button, int key);
-void interactWithTouchScreen(qboolean reset, ovrInputStateTrackedRemote *newState, ovrInputStateTrackedRemote *oldState);
+void handleTrackedControllerButton(ovrInputState* trackedRemoteState, ovrInputState* prevTrackedRemoteState, uint32_t button, int key);
+void interactWithTouchScreen(qboolean reset, ovrInputState*newState, ovrInputState*oldState);
 
 
 //Called from engine code

@@ -39,7 +39,7 @@ If you have questions concerning this license or the applicable additional terms
 #include <direct.h>
 #include <io.h>
 #include <conio.h>
-#include <OVR_Platform.h>
+#include "../Oculus/Include/OVR_Platform.h"
 
 //#define	CD_BASEDIR	"wolf"
 #define CD_BASEDIR  ""
