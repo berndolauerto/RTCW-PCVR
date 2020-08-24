@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\botlib\</FILEPATH>
+      <FILENAME>be_aas_move.c</FILENAME>
+      <LINE>403</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>AAS_ApplyFriction</FUNCTION>
+    <DECORATED>AAS_ApplyFriction</DECORATED>
+    <FUNCLINE>398</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\botlib\</FILEPATH>
+      <FILENAME>be_aas_move.c</FILENAME>
+      <LINE>403</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>AAS_ApplyFriction</FUNCTION>
+    <DECORATED>AAS_ApplyFriction</DECORATED>
+    <FUNCLINE>398</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\botlib\</FILEPATH>
+      <FILENAME>be_aas_move.c</FILENAME>
+      <LINE>644</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>AAS_PredictClientMovement</FUNCTION>
+    <DECORATED>AAS_PredictClientMovement</DECORATED>
+    <FUNCLINE>433</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\botlib\</FILEPATH>
+      <FILENAME>be_aas_move.c</FILENAME>
+      <LINE>905</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>AAS_HorizontalVelocityForJump</FUNCTION>
+    <DECORATED>AAS_HorizontalVelocityForJump</DECORATED>
+    <FUNCLINE>881</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\botlib\</FILEPATH>
+      <FILENAME>be_aas_move.c</FILENAME>
+      <LINE>905</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>AAS_HorizontalVelocityForJump</FUNCTION>
+    <DECORATED>AAS_HorizontalVelocityForJump</DECORATED>
+    <FUNCLINE>881</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\botlib\</FILEPATH>
+      <FILENAME>be_aas_move.c</FILENAME>
+      <LINE>905</LINE>
+      <COLUMN>61</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>AAS_HorizontalVelocityForJump</FUNCTION>
+    <DECORATED>AAS_HorizontalVelocityForJump</DECORATED>
+    <FUNCLINE>881</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

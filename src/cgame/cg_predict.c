@@ -34,7 +34,7 @@ If you have questions concerning this license or the applicable additional terms
 // It also handles local physics interaction, like fragments bouncing off walls
 
 #include "cg_local.h"
-#include "../../../RTCWVR/VrClientInfo.h"
+#include "../RTCWVR/VrClientInfo.h"
 
 static pmove_t cg_pmove;
 

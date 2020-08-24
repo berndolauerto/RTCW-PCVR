@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\cgame\</FILEPATH>
+      <FILENAME>cg_view.c</FILENAME>
+      <LINE>315</LINE>
+      <COLUMN>53</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>CG_OffsetThirdPersonView</FUNCTION>
+    <DECORATED>CG_OffsetThirdPersonView</DECORATED>
+    <FUNCLINE>279</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\cgame\</FILEPATH>
+      <FILENAME>cg_view.c</FILENAME>
+      <LINE>316</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>CG_OffsetThirdPersonView</FUNCTION>
+    <DECORATED>CG_OffsetThirdPersonView</DECORATED>
+    <FUNCLINE>279</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\cgame\</FILEPATH>
+      <FILENAME>cg_view.c</FILENAME>
+      <LINE>340</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>CG_OffsetThirdPersonView</FUNCTION>
+    <DECORATED>CG_OffsetThirdPersonView</DECORATED>
+    <FUNCLINE>279</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\cgame\</FILEPATH>
+      <FILENAME>cg_view.c</FILENAME>
+      <LINE>340</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>CG_OffsetThirdPersonView</FUNCTION>
+    <DECORATED>CG_OffsetThirdPersonView</DECORATED>
+    <FUNCLINE>279</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\cgame\</FILEPATH>
+      <FILENAME>cg_view.c</FILENAME>
+      <LINE>533</LINE>
+      <COLUMN>82</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>CG_ZoomSway</FUNCTION>
+    <DECORATED>CG_ZoomSway</DECORATED>
+    <FUNCLINE>518</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\cgame\</FILEPATH>
+      <FILENAME>cg_view.c</FILENAME>
+      <LINE>536</LINE>
+      <COLUMN>78</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>CG_ZoomSway</FUNCTION>
+    <DECORATED>CG_ZoomSway</DECORATED>
+    <FUNCLINE>518</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\cgame\</FILEPATH>
+      <FILENAME>cg_view.c</FILENAME>
+      <LINE>899</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>CG_CalcFov</FUNCTION>
+    <DECORATED>CG_CalcFov</DECORATED>
+    <FUNCLINE>805</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\cgame\</FILEPATH>
+      <FILENAME>cg_view.c</FILENAME>
+      <LINE>1083</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>CG_CalcViewValues</FUNCTION>
+    <DECORATED>CG_CalcViewValues</DECORATED>
+    <FUNCLINE>1056</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\cgame\</FILEPATH>
+      <FILENAME>cg_view.c</FILENAME>
+      <LINE>1119</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>CG_CalcViewValues</FUNCTION>
+    <DECORATED>CG_CalcViewValues</DECORATED>
+    <FUNCLINE>1056</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\cgame\</FILEPATH>
+      <FILENAME>cg_view.c</FILENAME>
+      <LINE>1119</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>CG_CalcViewValues</FUNCTION>
+    <DECORATED>CG_CalcViewValues</DECORATED>
+    <FUNCLINE>1056</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\cgame\</FILEPATH>
+      <FILENAME>cg_view.c</FILENAME>
+      <LINE>1404</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>CG_DrawSkyBoxPortal</FUNCTION>
+    <DECORATED>CG_DrawSkyBoxPortal</DECORATED>
+    <FUNCLINE>1228</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

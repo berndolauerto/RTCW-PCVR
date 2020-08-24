@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+      <FILENAME>g_utils.c</FILENAME>
+      <LINE>777</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferenzierender NULL-Zeiger "ent-&gt;tagParent". </DESCRIPTION>
+    <FUNCTION>G_ProcessTagConnect</FUNCTION>
+    <DECORATED>G_ProcessTagConnect</DECORATED>
+    <FUNCLINE>770</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+        <FILENAME>g_utils.c</FILENAME>
+        <LINE>771</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+        <FILENAME>g_utils.c</FILENAME>
+        <LINE>774</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>verzweigen</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"ent-&gt;tagParent" kann NULL sein. (In diese Verzweigung eintreten)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+        <FILENAME>g_utils.c</FILENAME>
+        <LINE>775</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+        <FILENAME>g_utils.c</FILENAME>
+        <LINE>777</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>Verwendung</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"ent-&gt;tagParent" wird dereferenziert, kann jedoch weiterhin NULL sein.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

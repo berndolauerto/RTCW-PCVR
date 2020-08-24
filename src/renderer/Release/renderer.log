@@ -1,121 +1,529 @@
 ﻿  tr_animation.c
-e:\rtcwquest\src\renderer\tr_animation.c(143): warning C4459: declaration of 'oldFrame' hides global declaration
-  e:\rtcwquest\src\renderer\tr_animation.c(65): note: see declaration of 'oldFrame'
-e:\rtcwquest\src\renderer\tr_animation.c(144): warning C4459: declaration of 'frameSize' hides global declaration
-  e:\rtcwquest\src\renderer\tr_animation.c(66): note: see declaration of 'frameSize'
-e:\rtcwquest\src\renderer\tr_animation.c(241): warning C4459: declaration of 'lodScale' hides global declaration
-  e:\rtcwquest\src\renderer\tr_animation.c(74): note: see declaration of 'lodScale'
-e:\rtcwquest\src\renderer\tr_animation.c(416): warning C4459: declaration of 'tr' hides global declaration
-  e:\rtcwquest\src\renderer\tr_local.h(1068): note: see declaration of 'tr'
-e:\rtcwquest\src\renderer\tr_animation.c(428): warning C4459: declaration of 'tr' hides global declaration
-  e:\rtcwquest\src\renderer\tr_local.h(1068): note: see declaration of 'tr'
-e:\rtcwquest\src\renderer\tr_animation.c(434): warning C4459: declaration of 'tr' hides global declaration
-  e:\rtcwquest\src\renderer\tr_local.h(1068): note: see declaration of 'tr'
-e:\rtcwquest\src\renderer\tr_animation.c(440): warning C4459: declaration of 'tr' hides global declaration
-  e:\rtcwquest\src\renderer\tr_local.h(1068): note: see declaration of 'tr'
-e:\rtcwquest\src\renderer\tr_animation.c(446): warning C4459: declaration of 'tr' hides global declaration
-  e:\rtcwquest\src\renderer\tr_local.h(1068): note: see declaration of 'tr'
-e:\rtcwquest\src\renderer\tr_animation.c(464): warning C4459: declaration of 'angles' hides global declaration
-  e:\rtcwquest\src\renderer\tr_animation.c(69): note: see declaration of 'angles'
-e:\rtcwquest\src\renderer\tr_animation.c(477): warning C4459: declaration of 'vec' hides global declaration
-  e:\rtcwquest\src\renderer\tr_animation.c(71): note: see declaration of 'vec'
-e:\rtcwquest\src\renderer\tr_animation.c(527): warning C4459: declaration of 't' hides global declaration
-  e:\rtcwquest\src\renderer\tr_animation.c(81): note: see declaration of 't'
-e:\rtcwquest\src\renderer\tr_animation.c(581): warning C4459: declaration of 't' hides global declaration
-  e:\rtcwquest\src\renderer\tr_animation.c(81): note: see declaration of 't'
-e:\rtcwquest\src\renderer\tr_animation.c(601): warning C4459: declaration of 't' hides global declaration
-  e:\rtcwquest\src\renderer\tr_animation.c(81): note: see declaration of 't'
-e:\rtcwquest\src\renderer\tr_animation.c(616): warning C4459: declaration of 't' hides global declaration
-  e:\rtcwquest\src\renderer\tr_animation.c(81): note: see declaration of 't'
-e:\rtcwquest\src\renderer\tr_animation.c(1000): warning C4459: declaration of 'boneRefs' hides global declaration
-  e:\rtcwquest\src\renderer\tr_animation.c(52): note: see declaration of 'boneRefs'
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(143,23): warning C4459: Deklaration von "oldFrame" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(65,25): message : Siehe Deklaration von "oldFrame"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(144,18): warning C4459: Deklaration von "frameSize" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(66,12): message : Siehe Deklaration von "frameSize"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(241,22): warning C4459: Deklaration von "lodScale" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(74,25): message : Siehe Deklaration von "lodScale"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(416,104): warning C4459: Deklaration von "tr" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_local.h(1068,20): message : Siehe Deklaration von "tr"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(428,119): warning C4459: Deklaration von "tr" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_local.h(1068,20): message : Siehe Deklaration von "tr"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(434,123): warning C4459: Deklaration von "tr" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_local.h(1068,20): message : Siehe Deklaration von "tr"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(440,126): warning C4459: Deklaration von "tr" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_local.h(1068,20): message : Siehe Deklaration von "tr"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(446,122): warning C4459: Deklaration von "tr" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_local.h(1068,20): message : Siehe Deklaration von "tr"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(464,65): warning C4459: Deklaration von "angles" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(69,15): message : Siehe Deklaration von "angles"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(477,79): warning C4459: Deklaration von "vec" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(71,15): message : Siehe Deklaration von "vec"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(527,116): warning C4459: Deklaration von "t" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(81,15): message : Siehe Deklaration von "t"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(581,71): warning C4459: Deklaration von "t" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(81,15): message : Siehe Deklaration von "t"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(601,105): warning C4459: Deklaration von "t" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(81,15): message : Siehe Deklaration von "t"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(616,130): warning C4459: Deklaration von "t" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(81,15): message : Siehe Deklaration von "t"
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(1000,19): warning C4459: Deklaration von "boneRefs" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_animation.c(52,37): message : Siehe Deklaration von "boneRefs"
+  tr_backend.c
+C:\Unity\RTCW-PCVR\src\renderer\tr_backend.c(943,23): warning C4389: "==": Konflikt zwischen "signed" und "unsigned"
+  tr_bsp.c
+  tr_cmds.c
+C:\Unity\RTCW-PCVR\src\renderer\tr_cmds.c(260,30): warning C4459: Deklaration von "colorWhite" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(454,15): message : Siehe Deklaration von "colorWhite"
+C:\Unity\RTCW-PCVR\src\renderer\tr_cmds.c(324,30): warning C4459: Deklaration von "colorWhite" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(454,15): message : Siehe Deklaration von "colorWhite"
+  tr_cmesh.c
+  tr_curve.c
+C:\Unity\RTCW-PCVR\src\renderer\tr_curve.c(399,15): warning C4456: Deklaration von "dir" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_curve.c(372,6): message : Siehe Deklaration von "dir"
+  tr_flares.c
+  tr_font.c
+  tr_image.c
+C:\Unity\RTCW-PCVR\src\jpeg-6\jmorecfg.h(152,19): warning C4142: "INT32": Neudefinition eines Typs ohne Auswirkungen
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\basetsd.h(77): message : Siehe Deklaration von "INT32"
+C:\Unity\RTCW-PCVR\src\renderer\tr_image.c(1258,26): warning C4389: "!=": Konflikt zwischen "signed" und "unsigned"
+  tr_init.c
+C:\Unity\RTCW-PCVR\src\renderer\tr_init.c(1439,35): warning C4028: Formaler Parameter "1" unterscheidet sich von der Deklaration
+  tr_light.c
+  tr_main.c
+  tr_marks.c
+C:\Unity\RTCW-PCVR\src\renderer\tr_marks.c(681,23): warning C4456: Deklaration von "texCoordScale" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_marks.c(500,8): message : Siehe Deklaration von "texCoordScale"
+  tr_mesh.c
+  tr_model.c
+  tr_noise.c
   tr_scene.c
-e:\rtcwquest\src\rtcwvr\mathlib.h(39): warning C4005: 'RAD2DEG': macro redefinition
-  e:\rtcwquest\src\game\q_shared.h(487): note: see previous definition of 'RAD2DEG'
-e:\rtcwquest\src\rtcwvr\mathlib.h(40): warning C4005: 'DEG2RAD': macro redefinition
-  e:\rtcwquest\src\game\q_shared.h(486): note: see previous definition of 'DEG2RAD'
-e:\rtcwquest\src\rtcwvr\mathlib.h(58): warning C4005: 'nanmask': macro redefinition
-  e:\rtcwquest\src\game\q_shared.h(494): note: see previous definition of 'nanmask'
-e:\rtcwquest\src\rtcwvr\mathlib.h(61): warning C4005: 'IS_NAN': macro redefinition
-  e:\rtcwquest\src\game\q_shared.h(495): note: see previous definition of 'IS_NAN'
-e:\rtcwquest\src\rtcwvr\mathlib.h(74): warning C4005: 'Vector4Copy': macro redefinition
-  e:\rtcwquest\src\game\q_shared.h(556): note: see previous definition of 'Vector4Copy'
-e:\rtcwquest\src\rtcwvr\mathlib.h(88): warning C4005: 'Vector4Set': macro redefinition
-  e:\rtcwquest\src\game\q_shared.h(555): note: see previous definition of 'Vector4Set'
-e:\rtcwquest\src\rtcwvr\mathlib.h(98): warning C4005: 'VectorMA': macro redefinition
-  e:\rtcwquest\src\game\q_shared.h(527): note: see previous definition of 'VectorMA'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(34): error C2061: syntax error: identifier 'tracking'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(34): error C2059: syntax error: ';'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(54): error C2146: syntax error: missing ')' before identifier 'q'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(54): error C2061: syntax error: identifier 'q'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(54): error C2059: syntax error: ';'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(54): error C2059: syntax error: ','
-e:\rtcwquest\src\rtcwvr\vrcommon.h(54): error C2059: syntax error: ')'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(55): error C2143: syntax error: missing ')' before '*'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(55): error C2143: syntax error: missing '{' before '*'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(55): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-e:\rtcwquest\src\rtcwvr\vrcommon.h(55): error C2143: syntax error: missing ';' before '*'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(55): warning C4218: nonstandard extension used: must specify at least a storage class or a type
-e:\rtcwquest\src\rtcwvr\vrcommon.h(55): warning C4142: 'uint32_t': benign redefinition of type
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\stdint.h(23): note: see declaration of 'uint32_t'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(55): error C2370: 'uint32_t': redefinition; different storage class
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\stdint.h(23): note: see declaration of 'uint32_t'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(55): error C2146: syntax error: missing ';' before identifier 'button'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(55): error C2059: syntax error: 'type'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(55): error C2059: syntax error: ')'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(56): error C2143: syntax error: missing ')' before '*'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(56): error C2081: 'ovrInputStateTrackedRemote': name in formal parameter list illegal
-e:\rtcwquest\src\rtcwvr\vrcommon.h(56): error C2143: syntax error: missing '{' before '*'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(56): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-e:\rtcwquest\src\rtcwvr\vrcommon.h(56): error C2143: syntax error: missing ';' before '*'
-e:\rtcwquest\src\rtcwvr\vrcommon.h(56): warning C4218: nonstandard extension used: must specify at least a storage class or a type
-e:\rtcwquest\src\rtcwvr\vrcommon.h(56): error C2059: syntax error: ')'
-e:\rtcwquest\src\rtcwvr\vrinput.h(16): error C2061: syntax error: identifier 'leftTrackedRemoteState_old'
-e:\rtcwquest\src\rtcwvr\vrinput.h(16): error C2059: syntax error: ';'
-e:\rtcwquest\src\rtcwvr\vrinput.h(17): error C2061: syntax error: identifier 'leftTrackedRemoteState_new'
-e:\rtcwquest\src\rtcwvr\vrinput.h(17): error C2059: syntax error: ';'
-e:\rtcwquest\src\rtcwvr\vrinput.h(18): error C2061: syntax error: identifier 'leftRemoteTracking_new'
-e:\rtcwquest\src\rtcwvr\vrinput.h(18): error C2059: syntax error: ';'
-e:\rtcwquest\src\rtcwvr\vrinput.h(20): error C2061: syntax error: identifier 'rightTrackedRemoteState_old'
-e:\rtcwquest\src\rtcwvr\vrinput.h(20): error C2059: syntax error: ';'
-e:\rtcwquest\src\rtcwvr\vrinput.h(21): error C2061: syntax error: identifier 'rightTrackedRemoteState_new'
-e:\rtcwquest\src\rtcwvr\vrinput.h(21): error C2059: syntax error: ';'
-e:\rtcwquest\src\rtcwvr\vrinput.h(22): error C2061: syntax error: identifier 'rightRemoteTracking_new'
-e:\rtcwquest\src\rtcwvr\vrinput.h(22): error C2059: syntax error: ';'
-e:\rtcwquest\src\rtcwvr\vrinput.h(24): error C2061: syntax error: identifier 'controllerIDs'
-e:\rtcwquest\src\rtcwvr\vrinput.h(24): error C2059: syntax error: ';'
-e:\rtcwquest\src\rtcwvr\vrinput.h(24): error C2059: syntax error: '['
-e:\rtcwquest\src\rtcwvr\vrinput.h(36): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-e:\rtcwquest\src\rtcwvr\vrinput.h(36): error C2143: syntax error: missing ')' before '*'
-e:\rtcwquest\src\rtcwvr\vrinput.h(36): error C2143: syntax error: missing '{' before '*'
-e:\rtcwquest\src\rtcwvr\vrinput.h(36): error C2059: syntax error: 'type'
-e:\rtcwquest\src\rtcwvr\vrinput.h(36): error C2059: syntax error: ')'
-e:\rtcwquest\src\rtcwvr\vrinput.h(38): error C2143: syntax error: missing ')' before '*'
-e:\rtcwquest\src\rtcwvr\vrinput.h(38): error C2143: syntax error: missing '{' before '*'
-e:\rtcwquest\src\rtcwvr\vrinput.h(38): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-e:\rtcwquest\src\rtcwvr\vrinput.h(38): error C2143: syntax error: missing ';' before '*'
-e:\rtcwquest\src\rtcwvr\vrinput.h(38): warning C4218: nonstandard extension used: must specify at least a storage class or a type
-e:\rtcwquest\src\rtcwvr\vrinput.h(39): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-e:\rtcwquest\src\rtcwvr\vrinput.h(39): error C2143: syntax error: missing ';' before '*'
-e:\rtcwquest\src\rtcwvr\vrinput.h(39): warning C4218: nonstandard extension used: must specify at least a storage class or a type
-e:\rtcwquest\src\rtcwvr\vrinput.h(40): error C2059: syntax error: 'type'
-e:\rtcwquest\src\rtcwvr\vrinput.h(40): error C2059: syntax error: ')'
-e:\rtcwquest\src\rtcwvr\vrinput.h(42): error C2143: syntax error: missing ')' before '*'
-e:\rtcwquest\src\rtcwvr\vrinput.h(42): error C2143: syntax error: missing '{' before '*'
-e:\rtcwquest\src\rtcwvr\vrinput.h(42): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-e:\rtcwquest\src\rtcwvr\vrinput.h(42): error C2143: syntax error: missing ';' before '*'
-e:\rtcwquest\src\rtcwvr\vrinput.h(42): warning C4218: nonstandard extension used: must specify at least a storage class or a type
-e:\rtcwquest\src\rtcwvr\vrinput.h(43): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-e:\rtcwquest\src\rtcwvr\vrinput.h(43): error C2143: syntax error: missing ';' before '*'
-e:\rtcwquest\src\rtcwvr\vrinput.h(43): warning C4218: nonstandard extension used: must specify at least a storage class or a type
-e:\rtcwquest\src\rtcwvr\vrinput.h(44): error C2059: syntax error: 'type'
-e:\rtcwquest\src\rtcwvr\vrinput.h(44): error C2059: syntax error: ')'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(39,1): warning C4005: "RAD2DEG": Makro-Neudefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(487): message : Siehe vorherige Definition von "RAD2DEG"
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(40,1): warning C4005: "DEG2RAD": Makro-Neudefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(486): message : Siehe vorherige Definition von "DEG2RAD"
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(58,1): warning C4005: "nanmask": Makro-Neudefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(494): message : Siehe vorherige Definition von "nanmask"
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(61,1): warning C4005: "IS_NAN": Makro-Neudefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(495): message : Siehe vorherige Definition von "IS_NAN"
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(74,1): warning C4005: "Vector4Copy": Makro-Neudefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(556): message : Siehe vorherige Definition von "Vector4Copy"
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(88,1): warning C4005: "Vector4Set": Makro-Neudefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(555): message : Siehe vorherige Definition von "Vector4Set"
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(98,1): warning C4005: "VectorMA": Makro-Neudefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(527): message : Siehe vorherige Definition von "VectorMA"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(34,14): error C2061: Syntaxfehler: Bezeichner "tracking"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(34,14): error C2059: Syntaxfehler: ";"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(54,34): error C2146: Syntaxfehler: Fehlendes ")" vor Bezeichner "q"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(54,34): error C2061: Syntaxfehler: Bezeichner "q"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(54,34): error C2059: Syntaxfehler: ";"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(54,35): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(54,64): error C2059: Syntaxfehler: ")"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,63): error C2143: Syntaxfehler: Es fehlt ")" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,63): error C2143: Syntaxfehler: Es fehlt "{" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,83): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,112): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,112): error C2143: Syntaxfehler: Es fehlt ";" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,112): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,136): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,147): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,147): warning C4142: "uint32_t": Neudefinition eines Typs ohne Auswirkungen
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\stdint.h(24): message : Siehe Deklaration von "uint32_t"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,138): error C2370: "uint32_t": Neudefinition; unterschiedliche Speicherklassen
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\stdint.h(24): message : Siehe Deklaration von "uint32_t"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,147): error C2146: Syntaxfehler: Fehlendes ";" vor Bezeichner "button"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,147): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,153): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,159): error C2059: Syntaxfehler: "Typ"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(55,162): error C2059: Syntaxfehler: ")"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(56,73): error C2143: Syntaxfehler: Es fehlt ")" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(56,73): error C2081: "ovrInputStateTrackedRemote": Name in der formalen Parameterliste ist ungültig
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(56,73): error C2143: Syntaxfehler: Es fehlt "{" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(56,82): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(56,111): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(56,111): error C2143: Syntaxfehler: Es fehlt ";" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(56,111): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(56,120): error C2059: Syntaxfehler: ")"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(56,121): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCommon.h(56,121): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(17,28): error C2061: Syntaxfehler: Bezeichner "leftTrackedRemoteState_new"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(17,28): error C2059: Syntaxfehler: ";"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(18,13): error C2061: Syntaxfehler: Bezeichner "leftRemoteTracking_new"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(18,13): error C2059: Syntaxfehler: ";"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(20,28): error C2061: Syntaxfehler: Bezeichner "rightTrackedRemoteState_old"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(20,28): error C2059: Syntaxfehler: ";"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(21,28): error C2061: Syntaxfehler: Bezeichner "rightTrackedRemoteState_new"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(21,28): error C2059: Syntaxfehler: ";"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(22,13): error C2061: Syntaxfehler: Bezeichner "rightRemoteTracking_new"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(22,13): error C2059: Syntaxfehler: ";"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(24,13): error C2061: Syntaxfehler: Bezeichner "controllerIDs"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(24,13): error C2059: Syntaxfehler: ";"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(24,26): error C2059: Syntaxfehler: "["
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(36,38): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(36,48): error C2143: Syntaxfehler: Es fehlt ")" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(36,48): error C2143: Syntaxfehler: Es fehlt "{" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(36,52): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(36,61): error C2059: Syntaxfehler: "Typ"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(36,72): error C2059: Syntaxfehler: ")"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(38,54): error C2143: Syntaxfehler: Es fehlt ")" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(38,54): error C2143: Syntaxfehler: Es fehlt "{" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(38,80): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(38,109): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(38,109): error C2143: Syntaxfehler: Es fehlt ";" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(38,109): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(38,135): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(38,148): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(38,148): error C2143: Syntaxfehler: Es fehlt ";" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(38,148): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(38,167): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(39,54): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(39,54): error C2143: Syntaxfehler: Es fehlt ";" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(39,54): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(39,75): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(39,104): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(39,104): error C2143: Syntaxfehler: Es fehlt ";" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(39,104): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(39,125): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(39,138): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(39,138): error C2143: Syntaxfehler: Es fehlt ";" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(39,138): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(39,152): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(40,31): error C2059: Syntaxfehler: "Typ"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(40,90): error C2059: Syntaxfehler: ")"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(42,58): error C2143: Syntaxfehler: Es fehlt ")" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(42,58): error C2143: Syntaxfehler: Es fehlt "{" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(42,84): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(42,113): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(42,113): error C2143: Syntaxfehler: Es fehlt ";" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(42,113): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(42,139): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(42,152): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(42,152): error C2143: Syntaxfehler: Es fehlt ";" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(42,152): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(42,171): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(43,54): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(43,54): error C2143: Syntaxfehler: Es fehlt ";" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(43,54): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(43,75): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(43,104): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(43,104): error C2143: Syntaxfehler: Es fehlt ";" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(43,104): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(43,125): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(43,138): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(43,138): error C2143: Syntaxfehler: Es fehlt ";" vor "*"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(43,138): warning C4218: Nicht dem Standard entsprechende Erweiterung: Mindestens Angabe einer Speicherklasse oder eines Typs erforderlich
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(43,152): warning C4431: Fehlender Typspezifizierer - int wird angenommen. Hinweis: "default-int" wird von C nicht mehr unterstützt.
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(44,31): error C2059: Syntaxfehler: "Typ"
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInput.h(44,90): error C2059: Syntaxfehler: ")"
   tr_shade.c
-e:\rtcwquest\src\renderer\tr_shade.c(99): warning C4389: '==': signed/unsigned mismatch
-e:\rtcwquest\src\renderer\tr_shade.c(125): warning C4389: '==': signed/unsigned mismatch
+C:\Unity\RTCW-PCVR\src\renderer\tr_shade.c(99,26): warning C4389: "==": Konflikt zwischen "signed" und "unsigned"
+C:\Unity\RTCW-PCVR\src\renderer\tr_shade.c(99,59): warning C4389: "==": Konflikt zwischen "signed" und "unsigned"
+C:\Unity\RTCW-PCVR\src\renderer\tr_shade.c(125,19): warning C4389: "==": Konflikt zwischen "signed" und "unsigned"
+C:\Unity\RTCW-PCVR\src\renderer\tr_shade.c(125,52): warning C4389: "==": Konflikt zwischen "signed" und "unsigned"
+  tr_shade_calc.c
+C:\Unity\RTCW-PCVR\src\renderer\tr_shade_calc.c(565,38): warning C4389: "==": Konflikt zwischen "signed" und "unsigned"
+C:\Unity\RTCW-PCVR\src\renderer\tr_shade_calc.c(566,42): warning C4389: "==": Konflikt zwischen "signed" und "unsigned"
+  tr_shader.c
+C:\Unity\RTCW-PCVR\src\renderer\tr_shader.c(2830,21): warning C4459: Deklaration von "shader" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_shader.c(38,17): message : Siehe Deklaration von "shader"
+  Kompilieren...
+  Code wird generiert...
+C:\Unity\RTCW-PCVR\src\renderer\tr_backend.c(1061): warning C4701: Die möglicherweise nicht initialisierte lokale Variable "oldFaceCullEnabled" wurde verwendet.
+C:\Unity\RTCW-PCVR\src\renderer\tr_backend.c(1067): warning C4701: Die möglicherweise nicht initialisierte lokale Variable "oldFaceCullMode" wurde verwendet.
+C:\Unity\RTCW-PCVR\src\renderer\tr_image.c(3735): warning C4706: Zuweisung in bedingtem Ausdruck
+C:\Unity\RTCW-PCVR\src\renderer\tr_image.c(2247): warning C4706: Zuweisung in bedingtem Ausdruck
+C:\Unity\RTCW-PCVR\src\renderer\tr_image.c(3897): warning C4706: Zuweisung in bedingtem Ausdruck
+C:\Unity\RTCW-PCVR\src\renderer\tr_model.c(2127): warning C4706: Zuweisung in bedingtem Ausdruck
+  Kompilieren...
   tr_shadows.c
-e:\rtcwquest\src\renderer\tr_shadows.c(59): warning C4459: declaration of 'facing' hides global declaration
-  e:\rtcwquest\src\renderer\tr_shadows.c(53): note: see declaration of 'facing'
+C:\Unity\RTCW-PCVR\src\renderer\tr_shadows.c(59,49): warning C4459: Deklaration von "facing" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\renderer\tr_shadows.c(53,12): message : Siehe Deklaration von "facing"
+  tr_sky.c
+  tr_surface.c
+  tr_world.c
+  win_gamma.c
+C:\Unity\RTCW-PCVR\src\win32\win_gamma.c(153,2): warning C4996: 'GetVersionExA': wurde als veraltet deklariert
+  win_glimp.c
+C:\Unity\RTCW-PCVR\src\win32\win_glimp.c(1111,7): warning C4996: 'GetVersionExA': wurde als veraltet deklariert
+  win_qgl.c
+  jcapimin.c
+  jccoefct.c
+  jccolor.c
+  jcdctmgr.c
+  jchuff.c
+  jcinit.c
+  jcmainct.c
+  jcmarker.c
+  jcmaster.c
+  jcomapi.c
+  jcparam.c
+  jcphuff.c
+  jcprepct.c
+  Kompilieren...
+  Code wird generiert...
+  Kompilieren...
   jcsample.c
+  jctrans.c
+  jdapimin.c
+  jdapistd.c
+  jdatadst.c
+  jdatasrc.c
+  jdcoefct.c
+  jdcolor.c
+  jddctmgr.c
+  jdhuff.c
+  jdinput.c
+  jdmainct.c
+  jdmarker.c
+  jdmaster.c
+  jdpostct.c
+  jdsample.c
+  jdtrans.c
+  jerror.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\basetsd.h(77,34): warning C4142: "INT32": Neudefinition eines Typs ohne Auswirkungen
+C:\Unity\RTCW-PCVR\src\jpeg-6\jmorecfg.h(152): message : Siehe Deklaration von "INT32"
+  jfdctflt.c
+  jidctflt.c
+  Kompilieren...
+  Code wird generiert...
+  Kompilieren...
   jmemmgr.c
-  Generating Code...
+  jmemnobs.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\basetsd.h(77,34): warning C4142: "INT32": Neudefinition eines Typs ohne Auswirkungen
+C:\Unity\RTCW-PCVR\src\jpeg-6\jmorecfg.h(152): message : Siehe Deklaration von "INT32"
+  jutils.c
+  ahangles.c
+  ahglobal.c
+  ahglyph.c
+C:\Unity\RTCW-PCVR\src\ft2\ahglyph.c(301,25): warning C4456: Deklaration von "limit" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ahglyph.c(225,14): message : Siehe Deklaration von "limit"
+C:\Unity\RTCW-PCVR\src\ft2\ahglyph.c(598,25): warning C4456: Deklaration von "min_point" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ahglyph.c(451,16): message : Siehe Deklaration von "min_point"
+C:\Unity\RTCW-PCVR\src\ft2\ahglyph.c(599,25): warning C4456: Deklaration von "max_point" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ahglyph.c(452,16): message : Siehe Deklaration von "max_point"
+  ahhint.c
+C:\Unity\RTCW-PCVR\src\ft2\ahhint.c(553,23): warning C4456: Deklaration von "before" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ahhint.c(498,14): message : Siehe Deklaration von "before"
+C:\Unity\RTCW-PCVR\src\ft2\ahhint.c(554,23): warning C4456: Deklaration von "after" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ahhint.c(499,14): message : Siehe Deklaration von "after"
+C:\Unity\RTCW-PCVR\src\ft2\ahhint.c(645,13): warning C4456: Deklaration von "u" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ahhint.c(631,9): message : Siehe Deklaration von "u"
+C:\Unity\RTCW-PCVR\src\ft2\ahhint.c(1218,36): warning C4244: "=": Konvertierung von "FT_UInt" in "short", möglicher Datenverlust
+  ahmodule.c
+  ahoptim.c
+C:\Unity\RTCW-PCVR\src\ft2\ahoptim.c(713,18): warning C4456: Deklaration von "stem" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ahoptim.c(676,12): message : Siehe Deklaration von "stem"
+  ftcalc.c
+  ftdebug.c
+  ftextend.c
+  ftglyph.c
+  ftgrays.c
+C:\Unity\RTCW-PCVR\src\ft2\ftgrays.c(1327,23): warning C4244: "+=": Konvertierung von "int" in "unsigned short", möglicher Datenverlust
+  ftinit.c
+  ftlist.c
+  ftmm.c
+  ftnames.c
+  ftobjs.c
+C:\Unity\RTCW-PCVR\src\ft2\ftobjs.c(597,48): warning C4244: "+=": Konvertierung von "FT_UInt" in "short", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ftobjs.c(631,31): warning C4244: "=": Konvertierung von "FT_UInt" in "short", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ftobjs.c(632,33): warning C4244: "=": Konvertierung von "FT_UInt" in "short", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ftobjs.c(2039,31): warning C4244: "=": Konvertierung von "FT_UInt" in "FT_UShort", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ftobjs.c(2040,32): warning C4244: "=": Konvertierung von "FT_UInt" in "FT_UShort", möglicher Datenverlust
+  ftoutln.c
+  Kompilieren...
+  Code wird generiert...
+  Kompilieren...
+  ftraster.c
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(1080,18): warning C4244: "=": Konvertierung von "Long" in "Short", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(2635,43): warning C4244: "=": Konvertierung von "Long" in "Short", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(2666,31): warning C4244: "=": Konvertierung von "Long" in "UShort", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(2785,14): warning C4456: Deklaration von "Q" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(2607,14): message : Siehe Deklaration von "Q"
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(2785,17): warning C4456: Deklaration von "P" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(2607,11): message : Siehe Deklaration von "P"
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(2800,14): warning C4456: Deklaration von "Q" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(2607,14): message : Siehe Deklaration von "Q"
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(2800,18): warning C4456: Deklaration von "P" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(2607,11): message : Siehe Deklaration von "P"
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(2956,47): warning C4244: "=": Konvertierung von "int" in "Short", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(2958,32): warning C4244: "=": Konvertierung von "int" in "UShort", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ftraster.c(2974,49): warning C4244: "=": Konvertierung von "int" in "Short", möglicher Datenverlust
+  ftrend1.c
+  ftsmooth.c
+  ftstream.c
+C:\Unity\RTCW-PCVR\src\ft2\ftstream.c(696,15): warning C4456: Deklaration von "p" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ftstream.c(646,13): message : Siehe Deklaration von "p"
+C:\Unity\RTCW-PCVR\src\ft2\ftstream.c(719,15): warning C4456: Deklaration von "p" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ftstream.c(646,13): message : Siehe Deklaration von "p"
+C:\Unity\RTCW-PCVR\src\ft2\ftstream.c(745,15): warning C4456: Deklaration von "p" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\ft2\ftstream.c(646,13): message : Siehe Deklaration von "p"
+  ftsystem.c
+  sfdriver.c
+  sfobjs.c
+C:\Unity\RTCW-PCVR\src\ft2\sfobjs.c(385,40): warning C4244: "=": Konvertierung von "FT_Int" in "FT_UShort", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\sfobjs.c(386,40): warning C4244: "=": Konvertierung von "FT_Int" in "FT_UShort", möglicher Datenverlust
+  ttcmap.c
+  ttdriver.c
+  ttgload.c
+C:\Unity\RTCW-PCVR\src\ft2\ttgload.c(178,57): warning C4244: "=": Konvertierung von "FT_UInt" in "FT_UShort", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ttgload.c(179,61): warning C4244: "=": Konvertierung von "FT_UInt" in "FT_Short", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ttgload.c(201,18): warning C4100: "glyph_index": Unreferenzierter formaler Parameter
+C:\Unity\RTCW-PCVR\src\ft2\ttgload.c(395,32): warning C4244: "=": Konvertierung von "FT_Int" in "short", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ttgload.c(396,34): warning C4244: "=": Konvertierung von "FT_Int" in "short", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ttgload.c(998,37): warning C4244: "=": Konvertierung von "FT_UInt" in "FT_UShort", möglicher Datenverlust
+  ttinterp.c
+  ttload.c
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(166,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(167,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(168,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(169,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(176,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(177,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(449,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(450,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(451,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(452,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(453,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(454,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(455,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(456,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(457,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(458,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(459,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(460,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(461,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(462,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(463,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(464,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(465,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(466,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(467,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(519,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(520,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(521,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(522,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(523,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(524,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(525,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(526,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(527,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(528,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(529,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(530,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(531,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(532,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(533,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(749,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(750,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(751,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(752,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(753,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(754,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(755,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(756,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(757,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(758,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(759,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(760,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(761,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(762,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(763,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(764,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(765,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(845,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(846,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(847,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(854,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(855,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(856,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(857,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(858,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(859,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1038,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1039,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1046,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1047,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1048,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1147,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1148,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1149,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1150,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1151,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1152,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1153,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1154,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1155,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1156,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1157,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1158,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1159,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1160,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1161,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1162,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1163,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1164,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1165,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1166,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1167,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1168,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1169,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1170,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1171,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1172,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1173,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1174,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1175,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1176,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1177,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1178,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1179,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1180,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1182,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1183,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1184,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1185,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1186,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1187,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1188,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1189,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1196,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1197,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1204,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1205,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1206,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1207,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1208,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1280,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1281,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1282,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1283,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1284,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1285,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1286,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1287,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1288,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1333,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1334,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1335,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1336,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1337,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1338,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1339,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1340,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1341,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1342,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1343,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1344,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1345,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttload.c(1346,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+  ttobjs.c
+  ttpload.c
+  ttpost.c
+C:\Unity\RTCW-PCVR\src\ft2\ttpost.c(250,36): warning C4244: "=": Konvertierung von "FT_Int" in "FT_UShort", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ttpost.c(251,35): warning C4244: "=": Konvertierung von "FT_Int" in "FT_UShort", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ttpost.c(324,33): warning C4244: "=": Konvertierung von "FT_Int" in "FT_UShort", möglicher Datenverlust
+  ttsbit.c
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(168,19): warning C4244: "-=": Konvertierung von "FT_Int" in "FT_Byte", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(184,2): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(185,2): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(187,2): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(188,2): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(189,2): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(191,2): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(192,2): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(193,2): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(398,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(399,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(400,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(402,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(403,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(404,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(406,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(407,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(408,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(409,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(410,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(411,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(418,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(420,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(421,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(428,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(429,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(430,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(431,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(432,3): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(433,3): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(664,1): warning C4244: "Initialisierung": Konvertierung von "FT_UInt" in "FT_UShort", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(834,4): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(835,4): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(836,4): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(837,4): warning C4305: "Typumwandlung": Verkürzung von "FT_Char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(838,4): warning C4305: "Typumwandlung": Verkürzung von "char *" in "FT_UShort"
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(962,34): warning C4244: "-=": Konvertierung von "FT_Int" in "FT_Byte", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(963,34): warning C4244: "-=": Konvertierung von "FT_Int" in "FT_Char", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(964,34): warning C4244: "-=": Konvertierung von "FT_Int" in "FT_Char", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(995,28): warning C4244: "-=": Konvertierung von "FT_Int" in "FT_Byte", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(1435,40): warning C4244: "=": Konvertierung von "int" in "FT_Char", möglicher Datenverlust
+C:\Unity\RTCW-PCVR\src\ft2\ttsbit.c(1436,45): warning C4244: "=": Konvertierung von "int" in "FT_Byte", möglicher Datenverlust
+  Kompilieren...
+  Code wird generiert...

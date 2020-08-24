@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\win32\</FILEPATH>
+      <FILENAME>win_gamma.c</FILENAME>
+      <LINE>153</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Verwenden Sie eventuell "IsWindows*" anstelle von "GetVersionExA". Ursache: Deprecated. Use VerifyVersionInfo* or IsWindows* macros from VersionHelpers.</DESCRIPTION>
+    <FUNCTION>GLimp_SetGamma</FUNCTION>
+    <DECORATED>GLimp_SetGamma</DECORATED>
+    <FUNCLINE>133</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -30,7 +30,7 @@ If you have questions concerning this license or the applicable additional terms
 #include "g_local.h"
 
 #include "ai_cast_fight.h"   // need these for avoidance
-#include "../../../RTCWVR/VrClientInfo.h"
+#include "../RTCWVR/VrClientInfo.h"
 
 
 extern void G_CheckForCursorHints( gentity_t *ent );

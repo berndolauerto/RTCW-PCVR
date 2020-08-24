@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+      <FILENAME>g_cmds.c</FILENAME>
+      <LINE>1888</LINE>
+      <COLUMN>85</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>ClientDamage</FUNCTION>
+    <DECORATED>ClientDamage</DECORATED>
+    <FUNCLINE>1782</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

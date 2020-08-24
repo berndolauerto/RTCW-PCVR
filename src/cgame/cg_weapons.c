@@ -35,7 +35,7 @@ If you have questions concerning this license or the applicable additional terms
 
 #include <math.h>
 #include "cg_local.h"
-#include "../../../RTCWVR/VrClientInfo.h"
+#include "../RTCWVR/VrClientInfo.h"
 
 
 #define M_PI2		(float)6.28318530717958647692

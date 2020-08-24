@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\bspc\</FILEPATH>
+      <FILENAME>l_cmd.h</FILENAME>
+      <LINE>69</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inkonsistente Anmerkung für "strupr": diese Instanz verfügt über keine Anmerkungen. Siehe c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\string.h(584). </DESCRIPTION>
+    <FUNCTION>strupr</FUNCTION>
+    <DECORATED>strupr</DECORATED>
+    <FUNCLINE>69</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

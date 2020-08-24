@@ -1,0 +1,3 @@
+C:\Unity\RTCW-PCVR\src\botlib\Release\botlib.lib
+C:\Unity\RTCW-PCVR\src\botlib\Release\botlib.lib.lastcodeanalysissucceeded
+C:\Unity\RTCW-PCVR\src\botlib\Release\NativeCodeAnalysis.read.1.tlog

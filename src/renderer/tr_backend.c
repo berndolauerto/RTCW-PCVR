@@ -27,7 +27,7 @@ If you have questions concerning this license or the applicable additional terms
 */
 
 #include "tr_local.h"
-#include "../../../RTCWVR/VrClientInfo.h"
+#include "../RTCWVR/VrClientInfo.h"
 
 backEndData_t   *backEndData[SMP_FRAMES];
 backEndState_t backEnd;

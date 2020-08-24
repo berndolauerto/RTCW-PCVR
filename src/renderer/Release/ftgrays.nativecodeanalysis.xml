@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\ft2\</FILEPATH>
+      <FILENAME>ftgrays.c</FILENAME>
+      <LINE>1980</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28182</DEFECTCODE>
+    <DESCRIPTION>Dereferenzierender NULL-Zeiger. "rast" enthält den gleichen NULL-Wert wie "raster". </DESCRIPTION>
+    <FUNCTION>grays_raster_reset</FUNCTION>
+    <DECORATED>grays_raster_reset</DECORATED>
+    <FUNCLINE>1970</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\ft2\</FILEPATH>
+        <FILENAME>ftgrays.c</FILENAME>
+        <LINE>1973</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\ft2\</FILEPATH>
+        <FILENAME>ftgrays.c</FILENAME>
+        <LINE>1976</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>verzweigen</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"rast" kann NULL sein. (Diese Verzweigung überspringen)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\ft2\</FILEPATH>
+        <FILENAME>ftgrays.c</FILENAME>
+        <LINE>1980</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>Verwendung</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"rast" wird dereferenziert, kann jedoch weiterhin NULL sein.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

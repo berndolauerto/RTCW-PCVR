@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\splines\</FILEPATH>
+      <FILENAME>util_str.cpp</FILENAME>
+      <LINE>429</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Die Funktion verwendet "65556" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.</DESCRIPTION>
+    <FUNCTION>idStr::snprintf</FUNCTION>
+    <DECORATED>?snprintf@idStr@@SAXPADHPBDZZ</DECORATED>
+    <FUNCLINE>429</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

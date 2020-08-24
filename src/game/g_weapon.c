@@ -35,7 +35,7 @@ If you have questions concerning this license or the applicable additional terms
 
 
 #include "g_local.h"
-#include "../../../RTCWVR/VrClientInfo.h"
+#include "../RTCWVR/VrClientInfo.h"
 
 static float s_quadFactor;
 static vec3_t forward, right, up;

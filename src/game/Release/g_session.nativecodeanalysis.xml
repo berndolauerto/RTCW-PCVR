@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+      <FILENAME>g_session.c</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Rückgabewert wird ignoriert: "sscanf".</DESCRIPTION>
+    <FUNCTION>G_ReadSessionData</FUNCTION>
+    <DECORATED>G_ReadSessionData</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

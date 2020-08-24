@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\client\</FILEPATH>
+      <FILENAME>cl_cin.c</FILENAME>
+      <LINE>1270</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Die Funktion verwendet "65544" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.</DESCRIPTION>
+    <FUNCTION>RoQInterrupt</FUNCTION>
+    <DECORATED>RoQInterrupt</DECORATED>
+    <FUNCLINE>1270</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+      <FILENAME>g_props.c</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>DropToFloor</FUNCTION>
+    <DECORATED>DropToFloor</DECORATED>
+    <FUNCLINE>61</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+      <FILENAME>g_props.c</FILENAME>
+      <LINE>1720</LINE>
+      <COLUMN>72</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferenzierender NULL-Zeiger "daent". </DESCRIPTION>
+    <FUNCTION>Use_DamageInflictor</FUNCTION>
+    <DECORATED>Use_DamageInflictor</DECORATED>
+    <FUNCLINE>1716</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+        <FILENAME>g_props.c</FILENAME>
+        <LINE>1717</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+        <FILENAME>g_props.c</FILENAME>
+        <LINE>1719</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>Deklaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"daent" ist NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+        <FILENAME>g_props.c</FILENAME>
+        <LINE>1720</LINE>
+        <COLUMN>72</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>Deklaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"daent" ist eine Eingabe für und empfängt den Rückgabewert von "G_Find" (in c:\unity\rtcw-pcvr\src\game\g_local.h:799 deklariert)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+        <FILENAME>g_props.c</FILENAME>
+        <LINE>1720</LINE>
+        <COLUMN>72</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>Verwendung</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"daent" wird dereferenziert, kann jedoch weiterhin NULL sein.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

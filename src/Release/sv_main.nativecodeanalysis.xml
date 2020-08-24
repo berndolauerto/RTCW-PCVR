@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\server\</FILEPATH>
+      <FILENAME>sv_main.c</FILENAME>
+      <LINE>185</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Die Funktion verwendet "32788" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.</DESCRIPTION>
+    <FUNCTION>SV_SendServerCommand</FUNCTION>
+    <DECORATED>SV_SendServerCommand</DECORATED>
+    <FUNCLINE>185</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\server\</FILEPATH>
+      <FILENAME>sv_main.c</FILENAME>
+      <LINE>332</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Die Funktion verwendet "35880" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.</DESCRIPTION>
+    <FUNCTION>SVC_Status</FUNCTION>
+    <DECORATED>SVC_Status</DECORATED>
+    <FUNCLINE>332</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\server\</FILEPATH>
+      <FILENAME>sv_main.c</FILENAME>
+      <LINE>462</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Die Funktion verwendet "33808" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.</DESCRIPTION>
+    <FUNCTION>SVC_RemoteCommand</FUNCTION>
+    <DECORATED>SVC_RemoteCommand</DECORATED>
+    <FUNCLINE>462</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

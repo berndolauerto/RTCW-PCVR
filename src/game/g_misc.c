@@ -35,7 +35,7 @@ If you have questions concerning this license or the applicable additional terms
 
 
 #include "g_local.h"
-#include "../../../RTCWVR/VrClientInfo.h"
+#include "../RTCWVR/VrClientInfo.h"
 
 extern void AimAtTarget( gentity_t * self );
 

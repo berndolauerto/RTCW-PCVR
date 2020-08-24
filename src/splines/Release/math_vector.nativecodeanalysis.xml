@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\splines\</FILEPATH>
+      <FILENAME>math_vector.h</FILENAME>
+      <LINE>142</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Die Variable "idVec3::z" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).</DESCRIPTION>
+    <FUNCTION>idVec3::{ctor}</FUNCTION>
+    <DECORATED>??0idVec3@@QAE@XZ</DECORATED>
+    <FUNCLINE>142</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>idVec3::z</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\splines\</FILEPATH>
+      <FILENAME>math_vector.h</FILENAME>
+      <LINE>142</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Die Variable "idVec3::y" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).</DESCRIPTION>
+    <FUNCTION>idVec3::{ctor}</FUNCTION>
+    <DECORATED>??0idVec3@@QAE@XZ</DECORATED>
+    <FUNCLINE>142</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>idVec3::y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\splines\</FILEPATH>
+      <FILENAME>math_vector.h</FILENAME>
+      <LINE>142</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Die Variable "idVec3::x" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).</DESCRIPTION>
+    <FUNCTION>idVec3::{ctor}</FUNCTION>
+    <DECORATED>??0idVec3@@QAE@XZ</DECORATED>
+    <FUNCLINE>142</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>idVec3::x</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\splines\</FILEPATH>
+      <FILENAME>math_vector.h</FILENAME>
+      <LINE>552</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Die Variable "idVec4::dist" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).</DESCRIPTION>
+    <FUNCTION>idVec4::{ctor}</FUNCTION>
+    <DECORATED>??0idVec4@@QAE@XZ</DECORATED>
+    <FUNCLINE>552</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>idVec4::dist</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\splines\</FILEPATH>
+      <FILENAME>math_vector.cpp</FILENAME>
+      <LINE>74</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>idVec3::toPitch</FUNCTION>
+    <DECORATED>?toPitch@idVec3@@QAEMXZ</DECORATED>
+    <FUNCLINE>63</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\splines\</FILEPATH>
+      <FILENAME>math_vector.cpp</FILENAME>
+      <LINE>74</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>idVec3::toPitch</FUNCTION>
+    <DECORATED>?toPitch@idVec3@@QAEMXZ</DECORATED>
+    <FUNCLINE>63</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\splines\</FILEPATH>
+      <FILENAME>math_vector.cpp</FILENAME>
+      <LINE>122</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>LerpVector</FUNCTION>
+    <DECORATED>?LerpVector@@YA?AVidVec3@@AAV1@0M@Z</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

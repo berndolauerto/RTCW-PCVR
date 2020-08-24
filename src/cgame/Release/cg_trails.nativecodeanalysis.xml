@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\cgame\</FILEPATH>
+      <FILENAME>cg_trails.c</FILENAME>
+      <LINE>428</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Die Funktion verwendet "196772" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.</DESCRIPTION>
+    <FUNCTION>CG_AddTrailToScene</FUNCTION>
+    <DECORATED>CG_AddTrailToScene</DECORATED>
+    <FUNCLINE>428</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

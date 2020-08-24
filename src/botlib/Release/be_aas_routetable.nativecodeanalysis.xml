@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\botlib\</FILEPATH>
+      <FILENAME>be_aas_routetable.c</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>"ptr" könnte "0" sein:  dies entspricht nicht der Spezifikation für Funktion "memset". </DESCRIPTION>
+    <FUNCTION>AAS_RT_GetClearedMemory</FUNCTION>
+    <DECORATED>AAS_RT_GetClearedMemory</DECORATED>
+    <FUNCLINE>79</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\botlib\</FILEPATH>
+        <FILENAME>be_aas_routetable.c</FILENAME>
+        <LINE>80</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\botlib\</FILEPATH>
+        <FILENAME>be_aas_routetable.c</FILENAME>
+        <LINE>82</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\botlib\</FILEPATH>
+        <FILENAME>be_aas_routetable.c</FILENAME>
+        <LINE>88</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>Deklaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"ptr" kann NULL sein.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\botlib\</FILEPATH>
+        <FILENAME>be_aas_routetable.c</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>Deklaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"ptr" ist ein Eingabe-/Ausgabeargument für "memset" (in &lt;no file&gt;:0 deklariert)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\botlib\</FILEPATH>
+        <FILENAME>be_aas_routetable.c</FILENAME>
+        <LINE>89</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>Verwendung</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"ptr" sollte nicht NULL sein, da dies nicht der SAL-Anmerkung zu "memset" entspricht.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\botlib\</FILEPATH>
+      <FILENAME>be_aas_routetable.c</FILENAME>
+      <LINE>485</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Die Funktion verwendet "32980" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.</DESCRIPTION>
+    <FUNCTION>AAS_RT_BuildRouteTable</FUNCTION>
+    <DECORATED>AAS_RT_BuildRouteTable</DECORATED>
+    <FUNCLINE>485</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

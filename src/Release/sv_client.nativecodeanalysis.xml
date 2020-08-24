@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\server\</FILEPATH>
+      <FILENAME>sv_client.c</FILENAME>
+      <LINE>229</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Die Funktion verwendet "117960" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.</DESCRIPTION>
+    <FUNCTION>SV_DirectConnect</FUNCTION>
+    <DECORATED>SV_DirectConnect</DECORATED>
+    <FUNCLINE>229</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\server\</FILEPATH>
+      <FILENAME>sv_client.c</FILENAME>
+      <LINE>543</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Die Funktion verwendet "33100" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.</DESCRIPTION>
+    <FUNCTION>SV_SendClientGameState</FUNCTION>
+    <DECORATED>SV_SendClientGameState</DECORATED>
+    <FUNCLINE>543</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

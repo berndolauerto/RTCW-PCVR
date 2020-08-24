@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\client\</FILEPATH>
+      <FILENAME>snd_dma.c</FILENAME>
+      <LINE>1045</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>S_AddLoopSounds</FUNCTION>
+    <DECORATED>S_AddLoopSounds</DECORATED>
+    <FUNCLINE>1018</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\client\</FILEPATH>
+      <FILENAME>snd_dma.c</FILENAME>
+      <LINE>1046</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>S_AddLoopSounds</FUNCTION>
+    <DECORATED>S_AddLoopSounds</DECORATED>
+    <FUNCLINE>1018</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\client\</FILEPATH>
+      <FILENAME>snd_dma.c</FILENAME>
+      <LINE>1064</LINE>
+      <COLUMN>35</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>S_AddLoopSounds</FUNCTION>
+    <DECORATED>S_AddLoopSounds</DECORATED>
+    <FUNCLINE>1018</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\client\</FILEPATH>
+      <FILENAME>snd_dma.c</FILENAME>
+      <LINE>1065</LINE>
+      <COLUMN>36</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>S_AddLoopSounds</FUNCTION>
+    <DECORATED>S_AddLoopSounds</DECORATED>
+    <FUNCLINE>1018</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\client\</FILEPATH>
+      <FILENAME>snd_dma.c</FILENAME>
+      <LINE>1263</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Pufferüberlauf beim Schreiben nach "snd.entityPositions":  die schreibbare Größe beträgt "12288" Byte, es können jedoch "entityNum" Byte geschrieben werden.</DESCRIPTION>
+    <FUNCTION>S_UpdateEntityPosition</FUNCTION>
+    <DECORATED>S_UpdateEntityPosition</DECORATED>
+    <FUNCLINE>1259</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\client\</FILEPATH>
+        <FILENAME>snd_dma.c</FILENAME>
+        <LINE>1260</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>verzweigen</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>In diese Verzweigung eintreten (Annahme: "&lt;Verzweigungsbedingung&gt;")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\client\</FILEPATH>
+        <FILENAME>snd_dma.c</FILENAME>
+        <LINE>1261</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>Deklaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"entityNum" ist ein Eingabe-/Ausgabeargument für "Com_Error" (in c:\unity\rtcw-pcvr\src\game\q_shared.h:795 deklariert)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\client\</FILEPATH>
+        <FILENAME>snd_dma.c</FILENAME>
+        <LINE>1263</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>Verwendung</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Ungültiger Schreibvorgang nach "snd.entityPositions[1025]" (der schreibbare Bereich ist 0 bis 1023)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\client\</FILEPATH>
+      <FILENAME>snd_dma.c</FILENAME>
+      <LINE>1608</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>S_Update_Mix</FUNCTION>
+    <DECORATED>S_Update_Mix</DECORATED>
+    <FUNCLINE>1566</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\client\</FILEPATH>
+      <FILENAME>snd_dma.c</FILENAME>
+      <LINE>1634</LINE>
+      <COLUMN>81</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).</DESCRIPTION>
+    <FUNCTION>S_Update_Mix</FUNCTION>
+    <DECORATED>S_Update_Mix</DECORATED>
+    <FUNCLINE>1566</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\client\</FILEPATH>
+      <FILENAME>snd_dma.c</FILENAME>
+      <LINE>2320</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Die Funktion verwendet "30080" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.</DESCRIPTION>
+    <FUNCTION>S_UpdateStreamingSounds</FUNCTION>
+    <DECORATED>S_UpdateStreamingSounds</DECORATED>
+    <FUNCLINE>2320</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

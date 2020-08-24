@@ -1,28 +1,144 @@
 ﻿  cl_cgame.c
   cl_cin.c
-e:\rtcwquest\src\client\cl_cin.c(1086): warning C4389: '==': signed/unsigned mismatch
-e:\rtcwquest\src\client\cl_cin.c(1576): warning C4389: '!=': signed/unsigned mismatch
+C:\Unity\RTCW-PCVR\src\client\cl_cin.c(1086,83): warning C4389: "==": Konflikt zwischen "signed" und "unsigned"
+C:\Unity\RTCW-PCVR\src\client\cl_cin.c(1086,132): warning C4389: "==": Konflikt zwischen "signed" und "unsigned"
+C:\Unity\RTCW-PCVR\src\client\cl_cin.c(1576,14): warning C4389: "!=": Konflikt zwischen "signed" und "unsigned"
+  cl_console.c
   cl_input.c
-e:\rtcwquest\src\client\cl_input.c(436): error C2065: 'old_move': undeclared identifier
-e:\rtcwquest\src\client\cl_input.c(436): error C2224: left of '.yaw' must have struct/union type
-e:\rtcwquest\src\client\cl_input.c(437): error C2065: 'new_move': undeclared identifier
-e:\rtcwquest\src\client\cl_input.c(437): error C2224: left of '.yaw' must have struct/union type
-e:\rtcwquest\src\client\cl_input.c(445): error C2065: 'new_move': undeclared identifier
-e:\rtcwquest\src\client\cl_input.c(445): error C2224: left of '.pitch' must have struct/union type
-e:\rtcwquest\src\client\cl_input.c(447): error C2065: 'new_move': undeclared identifier
-e:\rtcwquest\src\client\cl_input.c(447): error C2224: left of '.roll' must have struct/union type
-e:\rtcwquest\src\client\cl_input.c(596): error C2065: 'new_move': undeclared identifier
-e:\rtcwquest\src\client\cl_input.c(596): error C2224: left of '.forward' must have struct/union type
-e:\rtcwquest\src\client\cl_input.c(596): error C2224: left of '.pos_forward' must have struct/union type
-e:\rtcwquest\src\client\cl_input.c(596): error C2198: 'ClampChar': too few arguments for call
-e:\rtcwquest\src\client\cl_input.c(597): error C2065: 'new_move': undeclared identifier
-e:\rtcwquest\src\client\cl_input.c(597): error C2224: left of '.side' must have struct/union type
-e:\rtcwquest\src\client\cl_input.c(597): error C2224: left of '.pos_side' must have struct/union type
-e:\rtcwquest\src\client\cl_input.c(597): error C2198: 'ClampChar': too few arguments for call
-e:\rtcwquest\src\client\cl_input.c(872): error C2065: 'old_move': undeclared identifier
-e:\rtcwquest\src\client\cl_input.c(872): error C2065: 'new_move': undeclared identifier
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(436,32): error C2065: "old_move": nichtdeklarierter Bezeichner
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(436,33): error C2224: Der linke Teil von ".yaw" muss eine Struktur/Union sein
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(437,32): error C2065: "new_move": nichtdeklarierter Bezeichner
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(437,33): error C2224: Der linke Teil von ".yaw" muss eine Struktur/Union sein
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(445,33): error C2065: "new_move": nichtdeklarierter Bezeichner
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(445,34): error C2224: Der linke Teil von ".pitch" muss eine Struktur/Union sein
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(447,32): error C2065: "new_move": nichtdeklarierter Bezeichner
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(447,33): error C2224: Der linke Teil von ".roll" muss eine Struktur/Union sein
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(596,60): error C2065: "new_move": nichtdeklarierter Bezeichner
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(596,61): error C2224: Der linke Teil von ".forward" muss eine Struktur/Union sein
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(596,87): error C2065: "new_move": nichtdeklarierter Bezeichner
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(596,88): error C2224: Der linke Teil von ".pos_forward" muss eine Struktur/Union sein
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(596,106): error C2198: "ClampChar": Nicht genügend Argumente für Aufruf.
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(597,56): error C2065: "new_move": nichtdeklarierter Bezeichner
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(597,57): error C2224: Der linke Teil von ".side" muss eine Struktur/Union sein
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(597,80): error C2065: "new_move": nichtdeklarierter Bezeichner
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(597,81): error C2224: Der linke Teil von ".pos_side" muss eine Struktur/Union sein
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(597,96): error C2198: "ClampChar": Nicht genügend Argumente für Aufruf.
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(872,11): error C2065: "old_move": nichtdeklarierter Bezeichner
+C:\Unity\RTCW-PCVR\src\client\cl_input.c(872,21): error C2065: "new_move": nichtdeklarierter Bezeichner
   cl_keys.c
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(570,3): error C2001: Zeilenvorschub in Konstante.
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(571,2): error C2059: Syntaxfehler: "{"
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(571,28): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(572,29): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(574,16): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(575,18): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(576,21): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(578,28): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(580,14): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(581,14): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(582,14): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(583,14): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(584,14): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(585,14): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(586,14): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(587,14): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(588,14): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(589,16): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(590,16): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(591,16): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(593,16): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(594,17): error C2059: Syntaxfehler: ","
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(595,3): error C2001: Zeilenvorschub in Konstante.
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(607,3): error C2001: Zeilenvorschub in Konstante.
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(666,3): error C2001: Zeilenvorschub in Konstante.
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(667,3): error C2001: Zeilenvorschub in Konstante.
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(680,3): error C2001: Zeilenvorschub in Konstante.
+C:\Unity\RTCW-PCVR\src\client\cl_keys.c(1908,1): fatal error C1004: Unerwartetes Dateiende gefunden.
+  cl_main.c
+  cl_net_chan.c
+  cl_parse.c
+  cl_scrn.c
+  cl_ui.c
+  snd_adpcm.c
+  snd_dma.c
+C:\Unity\RTCW-PCVR\src\client\snd_dma.c(1113,82): warning C4459: Deklaration von "s_channels" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\client\snd_dma.c(75,11): message : Siehe Deklaration von "s_channels"
+C:\Unity\RTCW-PCVR\src\client\snd_dma.c(1154,133): warning C4459: Deklaration von "s_channels" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\client\snd_dma.c(75,11): message : Siehe Deklaration von "s_channels"
+C:\Unity\RTCW-PCVR\src\client\snd_dma.c(2327,13): warning C4459: Deklaration von "re" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\client\client.h(333,20): message : Siehe Deklaration von "re"
+C:\Unity\RTCW-PCVR\src\client\snd_dma.c(2438,11): warning C4456: Deklaration von "r" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\client\snd_dma.c(2325,6): message : Siehe Deklaration von "r"
+  snd_mem.c
+  snd_mix.c
+C:\Unity\RTCW-PCVR\src\client\snd_mix.c(191,12): warning C4456: Deklaration von "count" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\client\snd_mix.c(177,6): message : Siehe Deklaration von "count"
+  snd_wavelet.c
+  q_math.c
+  q_shared.c
+  cmd.c
+  cm_load.c
+  cm_patch.c
+C:\Unity\RTCW-PCVR\src\qcommon\cm_patch.c(1253,29): warning C4459: Deklaration von "planes" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\qcommon\cm_patch.c(425,21): message : Siehe Deklaration von "planes"
+C:\Unity\RTCW-PCVR\src\qcommon\cm_patch.c(1398,22): warning C4459: Deklaration von "planes" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\qcommon\cm_patch.c(425,21): message : Siehe Deklaration von "planes"
+C:\Unity\RTCW-PCVR\src\qcommon\cm_patch.c(1533,22): warning C4459: Deklaration von "planes" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\qcommon\cm_patch.c(425,21): message : Siehe Deklaration von "planes"
+  Kompilieren...
+  Code wird generiert...
+C:\Unity\RTCW-PCVR\src\client\cl_cgame.c(908): warning C4706: Zuweisung in bedingtem Ausdruck
+  Kompilieren...
   cm_polylib.c
+  cm_test.c
+  cm_trace.c
+  common.c
+  cvar.c
+  files.c
+C:\Unity\RTCW-PCVR\src\qcommon\files.c(553,31): warning C4389: "!=": Konflikt zwischen "signed" und "unsigned"
+C:\Unity\RTCW-PCVR\src\qcommon\files.c(566,32): warning C4389: "!=": Konflikt zwischen "signed" und "unsigned"
+C:\Unity\RTCW-PCVR\src\qcommon\files.c(600,31): warning C4389: "!=": Konflikt zwischen "signed" und "unsigned"
+C:\Unity\RTCW-PCVR\src\qcommon\files.c(613,32): warning C4389: "!=": Konflikt zwischen "signed" und "unsigned"
+C:\Unity\RTCW-PCVR\src\qcommon\files.c(1057,32): warning C4389: "!=": Konflikt zwischen "signed" und "unsigned"
+C:\Unity\RTCW-PCVR\src\qcommon\files.c(1063,32): warning C4389: "!=": Konflikt zwischen "signed" und "unsigned"
+  huffman.c
+  md4.c
+  msg.c
+  net_chan.c
+C:\Unity\RTCW-PCVR\src\qcommon\net_chan.c(93,79): warning C4459: Deklaration von "qport" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\qcommon\net_chan.c(66,14): message : Siehe Deklaration von "qport"
+C:\Unity\RTCW-PCVR\src\qcommon\net_chan.c(318,11): warning C4459: Deklaration von "qport" blendet globale Deklaration aus
+C:\Unity\RTCW-PCVR\src\qcommon\net_chan.c(66,14): message : Siehe Deklaration von "qport"
+  unzip.c
+  vm.c
+  vm_interpreted.c
+  vm_x86.c
+  sv_bot.c
+  sv_ccmds.c
+  sv_client.c
+  sv_game.c
+  sv_init.c
   sv_main.c
-  Generating Code...
-e:\rtcwquest\src\client\cl_cgame.c(908): warning C4706: assignment within conditional expression
+  Kompilieren...
+  Code wird generiert...
+C:\Unity\RTCW-PCVR\src\server\sv_bot.c(647): warning C4706: Zuweisung in bedingtem Ausdruck
+C:\Unity\RTCW-PCVR\src\server\sv_init.c(571): warning C4706: Zuweisung in bedingtem Ausdruck
+  Kompilieren...
+  sv_net_chan.c
+  sv_snapshot.c
+  sv_world.c
+C:\Unity\RTCW-PCVR\src\server\sv_world.c(279,8): warning C4456: Deklaration von "i" blendet vorherige lokale Deklaration aus
+C:\Unity\RTCW-PCVR\src\server\sv_world.c(218,6): message : Siehe Deklaration von "i"
+  win_input.c
+  win_main.c
+C:\Unity\RTCW-PCVR\src\win32\win_main.c(42,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "OVR_Platform.h": No such file or directory
+  win_net.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdio.h(306,5): fatal error C1001: Interner Compilerfehler.
+  (Compilerdatei "msc1.cpp", Zeile 1533)
+   Um dieses Problem zu umgehen, vereinfachen oder ändern Sie das Programm im Umfeld der oben aufgeführten Positionen.
+  Geben Sie nach Möglichkeit hier Reproduktionsschritte an: https://developercommunity.visualstudio.com
+  Wählen Sie im Menü "Hilfe" von Visual C++ den Befehl "Technischer Support",
+   oder öffnen Sie die Hilfedatei des technischen Supports, um weitere Informationen zu erhalten.
+  INTERNER COMPILERFEHLER in "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\CL.exe"
+      Klicken Sie im Menü "Hilfe" von Visual C++ auf "Technischer Support",
+      oder öffnen Sie die Hilfe zum technischen Support, um weitere Informationen zu erhalten.

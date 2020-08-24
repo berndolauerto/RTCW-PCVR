@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\win32\</FILEPATH>
+      <FILENAME>win_qgl.c</FILENAME>
+      <LINE>3346</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Rückgabewert wird ignoriert: "asctime".</DESCRIPTION>
+    <FUNCTION>QGL_EnableLogging</FUNCTION>
+    <DECORATED>QGL_EnableLogging</DECORATED>
+    <FUNCLINE>3316</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

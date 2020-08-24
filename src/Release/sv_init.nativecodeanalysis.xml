@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\server\</FILEPATH>
+      <FILENAME>sv_init.c</FILENAME>
+      <LINE>133</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Lesen ungültiger Daten von "sv.configstrings":  die lesbare Größe beträgt "8192" Byte, es können jedoch "index" Byte gelesen werden.</DESCRIPTION>
+    <FUNCTION>SV_GetConfigstring</FUNCTION>
+    <DECORATED>SV_GetConfigstring</DECORATED>
+    <FUNCLINE>126</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\server\</FILEPATH>
+        <FILENAME>sv_init.c</FILENAME>
+        <LINE>127</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\server\</FILEPATH>
+        <FILENAME>sv_init.c</FILENAME>
+        <LINE>130</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>verzweigen</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>In diese Verzweigung eintreten (Annahme: "index&lt;0||index&gt;=2048")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\server\</FILEPATH>
+        <FILENAME>sv_init.c</FILENAME>
+        <LINE>131</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>Deklaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"index" ist ein Eingabe-/Ausgabeargument für "Com_Error" (in c:\unity\rtcw-pcvr\src\game\q_shared.h:795 deklariert)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\server\</FILEPATH>
+        <FILENAME>sv_init.c</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>verzweigen</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Diese Verzweigung überspringen (Annahme: "!sv.configstrings[index]" ist false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Unity\RTCW-PCVR\src\server\</FILEPATH>
+        <FILENAME>sv_init.c</FILENAME>
+        <LINE>133</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>Verwendung</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Ungültiger Lesevorgang von "sv.configstrings[2048]" (der lesbare Bereich ist 0 bis 2047)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

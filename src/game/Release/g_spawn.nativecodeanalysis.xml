@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+      <FILENAME>g_spawn.c</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Rückgabewert wird ignoriert: "sscanf".</DESCRIPTION>
+    <FUNCTION>G_SpawnVector</FUNCTION>
+    <DECORATED>G_SpawnVector</DECORATED>
+    <FUNCLINE>75</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Unity\RTCW-PCVR\src\game\</FILEPATH>
+      <FILENAME>g_spawn.c</FILENAME>
+      <LINE>799</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Rückgabewert wird ignoriert: "sscanf".</DESCRIPTION>
+    <FUNCTION>G_ParseField</FUNCTION>
+    <DECORATED>G_ParseField</DECORATED>
+    <FUNCLINE>783</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

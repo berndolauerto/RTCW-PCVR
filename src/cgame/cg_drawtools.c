@@ -28,7 +28,7 @@ If you have questions concerning this license or the applicable additional terms
 
 // cg_drawtools.c -- helper functions called by cg_draw, cg_scoreboard, cg_info, etc
 #include "cg_local.h"
-#include "../../../RTCWVR/VrClientInfo.h"
+#include "../RTCWVR/VrClientInfo.h"
 
 extern vr_client_info_t* cgVR;
 int hudflags = 0;

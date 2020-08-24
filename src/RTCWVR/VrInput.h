@@ -3,7 +3,7 @@
 #define vrinput_h
 
 #include "VrCommon.h"
-#include "../Oculus/Include/OVR_Platform.h"
+#include "../Oculus/Include/OVR_CAPI.h"
 
 
 //New control scheme definitions to be defined L1VR_SurfaceView.c enumeration
