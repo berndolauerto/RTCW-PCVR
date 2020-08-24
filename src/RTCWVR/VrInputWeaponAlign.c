@@ -7,24 +7,29 @@ Authors		:	Simon Brown
 
 *************************************************************************************/
 
-#include <VrApi.h>
-#include <VrApi_Helpers.h>
-#include <VrApi_SystemUtils.h>
-#include <VrApi_Input.h>
-#include <VrApi_Types.h>
-#include <android/keycodes.h>
+//#include <VrApi.h>
+//#include <VrApi_Helpers.h>
+//#include <VrApi_SystemUtils.h>
+//#include <VrApi_Input.h>
+//#include <VrApi_Types.h>
+//#include <android/keycodes.h>
 
 #include "VrInput.h"
 #include "VrCvars.h"
 
-#include "../rtcw/src/client/client.h"
+#include "../client/client.h"
+
+// CACTUS
+#include "../Oculus/Include/OVR_Platform.h"
+#include "../Oculus/Include/OVR_CAPI.h"
+
 
 cvar_t	*sv_cheats;
 
 void CG_CenterPrint( const char *str, int y, int charWidth );
 
-void HandleInput_WeaponAlign( ovrInputStateTrackedRemote *pDominantTrackedRemoteNew, ovrInputStateTrackedRemote *pDominantTrackedRemoteOld, ovrTracking* pDominantTracking,
-                          ovrInputStateTrackedRemote *pOffTrackedRemoteNew, ovrInputStateTrackedRemote *pOffTrackedRemoteOld, ovrTracking* pOffTracking,
+void HandleInput_WeaponAlign( ovrInputState *pDominantTrackedRemoteNew, ovrInputState *pDominantTrackedRemoteOld, ovrTrackingState* pDominantTracking,
+                          ovrInputState *pOffTrackedRemoteNew, ovrInputState *pOffTrackedRemoteOld, ovrTrackingState* pOffTracking,
                           int domButton1, int domButton2, int offButton1, int offButton2 )
 
 {

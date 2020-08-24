@@ -3,4 +3,3 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\
      Creating library .\Release/uix86.lib and object .\Release/uix86.exp
 ui_shared.obj : error LNK2019: unresolved external symbol _LOGI referenced in function _Item_SetFocus
 ..\Release\uix86.dll : fatal error LNK1120: 1 unresolved externals
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(861,5): error MSB6006: "link.exe" exited with code 1120.

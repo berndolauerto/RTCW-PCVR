@@ -32,7 +32,7 @@ static void GLCheckErrors( int line )
 		{
 			break;
 		}
-		ALOGE( "GL error on line %d: %s", line, GlErrorString( error ) );
+		//ALOGE( "GL error on line %d: %s", line, GlErrorString( error ) );
 	}
 }
 

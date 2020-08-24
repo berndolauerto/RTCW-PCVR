@@ -7,25 +7,31 @@ Authors		:	Simon Brown
 
 *************************************************************************************/
 
-#include <VrApi.h>
-#include <VrApi_Helpers.h>
-#include <VrApi_SystemUtils.h>
-#include <VrApi_Input.h>
-#include <VrApi_Types.h>
-#include <android/keycodes.h>
+//#include <VrApi.h>
+//#include <VrApi_Helpers.h>
+//#include <VrApi_SystemUtils.h>
+//#include <VrApi_Input.h>
+//#include <VrApi_Types.h>
+//#include <android/keycodes.h>
 
 #include "VrInput.h"
 #include "VrCvars.h"
 
-#include "../rtcw/src/client/client.h"
-#include "../../../../../../VrApi/Include/VrApi_Input.h"
+#include "../client/client.h"
+//#include "../../../../../../VrApi/Include/VrApi_Input.h"
+
+// CACTUS
+#include "../Oculus/Include/OVR_Platform.h"
+#include "../Oculus/Include/OVR_CAPI.h"
+
+
 
 #define WP_AKIMBO           20
 
 void SV_Trace( trace_t *results, const vec3_t start, const vec3_t mins, const vec3_t maxs, const vec3_t end, int passEntityNum, int contentmask, int capsule );
 
-void HandleInput_Default( ovrInputStateTrackedRemote *pDominantTrackedRemoteNew, ovrInputStateTrackedRemote *pDominantTrackedRemoteOld, ovrTracking* pDominantTracking,
-                          ovrInputStateTrackedRemote *pOffTrackedRemoteNew, ovrInputStateTrackedRemote *pOffTrackedRemoteOld, ovrTracking* pOffTracking,
+void HandleInput_Default( ovrInputState *pDominantTrackedRemoteNew, ovrInputState *pDominantTrackedRemoteOld, ovrTrackingState* pDominantTracking,
+                          ovrInputState *pOffTrackedRemoteNew, ovrInputState *pOffTrackedRemoteOld, ovrTrackingState* pOffTracking,
                           int domButton1, int domButton2, int offButton1, int offButton2 )
 
 {
@@ -41,8 +47,8 @@ void HandleInput_Default( ovrInputStateTrackedRemote *pDominantTrackedRemoteNew,
 
 
     //Need this for the touch screen
-    ovrTracking * pWeapon = pDominantTracking;
-    ovrTracking * pOff = pOffTracking;
+    ovrTrackingState* pWeapon = pDominantTracking;
+    ovrTrackingState* pOff = pOffTracking;
     if (vr.weaponid == WP_AKIMBO &&
             !vr.right_handed &&
             !RTCWVR_useScreenLayer())

@@ -17,4 +17,249 @@ C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(88,1): warning C4005: 'Vector4Set': macr
 C:\Unity\RTCW-PCVR\src\game\q_shared.h(555): message : see previous definition of 'Vector4Set'
 C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(98,1): warning C4005: 'VectorMA': macro redefinition
 C:\Unity\RTCW-PCVR\src\game\q_shared.h(527): message : see previous definition of 'VectorMA'
-C:\Unity\RTCW-PCVR\src\RTCWVR\GLES3\gl3platform.h(17,10): fatal error C1083: Cannot open include file: 'KHR/khrplatform.h': No such file or directory
+C:\Unity\RTCW-PCVR\src\RTCWVR\GLES3\gl3platform.h(17,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(47,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(93,79): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(93,87): error C2143: syntax error: missing ')' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(93,87): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(93,94): error C2059: syntax error: ')'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(93,95): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(93,95): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(190,70): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(190,78): error C2143: syntax error: missing ')' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(190,78): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(190,85): error C2059: syntax error: ')'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(190,86): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(190,86): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(201,21): error C2061: syntax error: identifier 'ovrRenderer_RenderGroundPlaneToEyeBuffer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(201,21): error C2059: syntax error: ';'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(201,75): error C2059: syntax error: '<parameter-list>'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(204,21): error C2061: syntax error: identifier 'ovrRenderer_RenderToEyeBuffer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(204,21): error C2059: syntax error: ';'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(204,64): error C2059: syntax error: '<parameter-list>'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(207,19): error C2061: syntax error: identifier 'BuildCylinderLayer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(207,19): error C2059: syntax error: ';'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(207,51): error C2059: syntax error: '<parameter-list>'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(128,15): warning C4013: 'clock_gettime' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(128,32): error C2065: 'CLOCK_MONOTONIC': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(178,51): warning C4459: declaration of 'argv' hides global declaration
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(105,8): message : see declaration of 'argv'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(182,10): warning C4459: declaration of 'argc' hides global declaration
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(106,5): message : see declaration of 'argc'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(346,31): error C2057: expected constant expression
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(346,31): error C2466: cannot allocate an array of constant size 0
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(346,32): error C2133: 'configs': unknown size
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(400,3): warning C4013: '__android_log_print' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(400,3): error C2065: 'ANDROID_LOG_ERROR': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(445,3): error C2065: 'ANDROID_LOG_ERROR': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(448,4): error C2065: 'ANDROID_LOG_ERROR': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(453,3): error C2065: 'ANDROID_LOG_ERROR': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(456,4): error C2065: 'ANDROID_LOG_ERROR': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(465,4): error C2065: 'ANDROID_LOG_ERROR': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(471,3): error C2065: 'ANDROID_LOG_ERROR': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(474,4): error C2065: 'ANDROID_LOG_ERROR': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(504,15): warning C4013: 'LOAD_GLES2' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(519,68): warning C4013: 'vrapi_CreateTextureSwapChain3' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(519,91): error C2065: 'VRAPI_TEXTURE_TYPE_2D': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(519,153): warning C4047: '=': 'ovrTextureSwapChain *' differs in levels of indirection from 'int'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(520,71): warning C4013: 'vrapi_GetTextureSwapChainLength' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(527,62): warning C4013: 'vrapi_GetTextureSwapChainHandle' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(529,3): warning C4013: 'gles_glBindTexture' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(532,9): warning C4013: 'gles_glTexParameteri' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(542,5): warning C4013: 'gles_glGenRenderbuffers' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(543,5): warning C4013: 'gles_glBindRenderbuffer' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(544,5): warning C4013: 'gles_glRenderbufferStorage' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(548,5): warning C4013: 'gles_glGenFramebuffers' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(549,5): warning C4013: 'gles_glBindFramebuffer' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(550,5): warning C4013: 'gles_glFramebufferRenderbuffer' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(551,5): warning C4013: 'gles_glFramebufferTexture2D' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(552,5): warning C4013: 'gles_glCheckFramebufferStatus' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(556,6): error C2065: 'ANDROID_LOG_ERROR': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(571,2): warning C4013: 'gles_glDeleteFramebuffers' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(572,2): warning C4013: 'gles_glDeleteRenderbuffers' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(574,31): warning C4013: 'vrapi_DestroyTextureSwapChain' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(588,7): warning C4013: 'LOGE' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(632,2): warning C4013: 'gles_glEnable' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(633,2): warning C4013: 'gles_glViewport' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(637,2): warning C4013: 'gles_glClearColor' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(640,2): warning C4013: 'gles_glScissor' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(641,2): warning C4013: 'gles_glClear' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(654,2): warning C4013: 'gles_glDisable' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(669,52): error C2065: 'VRAPI_FRAME_LAYER_EYE_MAX': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(671,36): error C2039: 'FrameBuffer': is not a member of 'ovrRenderer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(85): message : see declaration of 'ovrRenderer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(671,53): error C2198: 'ovrFramebuffer_Clear': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(673,57): warning C4013: 'ovrMatrix4f_CreateIdentity' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(673,59): error C2440: '=': cannot convert from 'int' to 'ovrMatrix4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(674,50): error C2065: 'VRAPI_FRAME_LAYER_EYE_MAX': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(678,79): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(678,87): error C2143: syntax error: missing ')' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(678,87): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(678,94): error C2059: syntax error: ')'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(679,1): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(679,1): error C2054: expected '(' to follow 'java'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(705,38): error C2039: 'FrameBuffer': is not a member of 'ovrRenderer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(85): message : see declaration of 'ovrRenderer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(705,55): error C2198: 'ovrFramebuffer_Destroy': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(707,59): error C2440: '=': cannot convert from 'int' to 'ovrMatrix4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(793,55): warning C4013: 'ovrMatrix4f_CreateFromQuaternion' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(797,53): warning C4013: 'ovrMatrix4f_CreateRotation' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(798,35): warning C4013: 'ovrMatrix4f_Multiply' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(798,47): error C2440: '=': cannot convert from 'int' to 'ovrMatrix4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(805,64): warning C4013: 'ovrVector4f_MultiplyMatrix4f' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(793,1): error C2440: 'initializing': cannot convert from 'int' to 'ovrMatrix4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(797,1): error C2440: 'initializing': cannot convert from 'int' to 'ovrMatrix4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(805,1): error C2440: 'initializing': cannot convert from 'int' to 'ovrVector4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(806,1): error C2440: 'initializing': cannot convert from 'int' to 'ovrVector4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(807,1): error C2440: 'initializing': cannot convert from 'int' to 'ovrVector4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(809,1): warning C4204: nonstandard extension used: non-constant aggregate initializer
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(810,1): warning C4204: nonstandard extension used: non-constant aggregate initializer
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(811,1): warning C4204: nonstandard extension used: non-constant aggregate initializer
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(919,2): error C2061: syntax error: identifier 'ovrJava'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(921,16): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(921,31): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(921,31): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(923,12): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(923,19): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(923,19): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(932,19): error C2061: syntax error: identifier 'Layers'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(932,19): error C2059: syntax error: ';'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(932,25): error C2059: syntax error: '['
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(935,1): error C2059: syntax error: '}'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(937,34): error C2143: syntax error: missing ')' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(937,34): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(937,40): error C2059: syntax error: ')'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(938,1): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(938,1): error C2054: expected '(' to follow 'app'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(957,43): error C2143: syntax error: missing ')' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(957,43): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(957,49): error C2059: syntax error: ')'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(958,1): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(958,1): error C2054: expected '(' to follow 'app'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(981,48): error C2143: syntax error: missing ')' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(981,48): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(981,54): error C2059: syntax error: ')'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(982,1): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(982,1): error C2054: expected '(' to follow 'app'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1142,9): warning C4013: 'usleep' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1245,2): error C2061: syntax error: identifier 'JavaVM'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1246,12): error C2061: syntax error: identifier 'ActivityObject'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1246,12): error C2059: syntax error: ';'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1247,18): error C2061: syntax error: identifier 'ActivityClass'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1247,18): error C2059: syntax error: ';'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1250,16): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1250,30): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1250,30): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1251,1): error C2059: syntax error: '}'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1268,5): error C2065: 'ANDROID_LOG_ERROR': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1326,21): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1326,34): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1326,40): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1327,15): error C2061: syntax error: identifier 'gAppState'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1327,15): error C2059: syntax error: ';'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1328,16): error C2061: syntax error: identifier 'java'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1328,16): error C2059: syntax error: ';'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1333,62): error C2065: 'gAppState': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1333,63): error C2224: left of '.Scene' must have struct/union type
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1333,98): error C2065: 'gAppState': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1333,99): error C2224: left of '.Renderer' must have struct/union type
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1335,44): error C2039: 'FrameBuffer': is not a member of 'ovrRenderer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(85): message : see declaration of 'ovrRenderer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1354,62): error C2065: 'gAppState': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1354,63): error C2224: left of '.Scene' must have struct/union type
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1354,98): error C2065: 'gAppState': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1354,99): error C2224: left of '.Renderer' must have struct/union type
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1356,44): error C2039: 'FrameBuffer': is not a member of 'ovrRenderer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(85): message : see declaration of 'ovrRenderer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1370,43): error C2065: 'gAppState': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1370,44): error C2224: left of '.Ovr' must have struct/union type
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1371,54): error C2223: left of '->MessageQueue' must point to struct/union
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1371,76): warning C4133: 'function': incompatible types - from 'ovrMessage *' to 'ovrMessageQueue *'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1371,94): warning C4047: 'function': 'ovrMessage *' differs in levels of indirection from 'const bool'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1371,94): warning C4024: 'ovrMessageQueue_GetNextMessage': different types for formal and actual parameter 2
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1371,94): error C2198: 'ovrMessageQueue_GetNextMessage': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1395,16): warning C4459: declaration of 'argc' hides global declaration
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(106,5): message : see declaration of 'argc'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1395,34): warning C4459: declaration of 'argv' hides global declaration
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(105,8): message : see declaration of 'argv'
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1406,14): error C2065: 'gAppState': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1406,15): error C2224: left of '.Resumed' must have struct/union type
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1411,14): error C2065: 'gAppState': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1411,15): error C2224: left of '.Resumed' must have struct/union type
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1420,14): error C2065: 'gAppState': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1420,15): error C2224: left of '.NativeWindow' must have struct/union type
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1425,48): error C2065: 'gAppState': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1425,48): fatal error C1003: error count exceeds 100; stopping compilation
+  VrCompositor.c
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(11,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+  VrInputCommon.c
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(39,1): warning C4005: 'RAD2DEG': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(487): message : see previous definition of 'RAD2DEG'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(40,1): warning C4005: 'DEG2RAD': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(486): message : see previous definition of 'DEG2RAD'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(58,1): warning C4005: 'nanmask': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(494): message : see previous definition of 'nanmask'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(61,1): warning C4005: 'IS_NAN': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(495): message : see previous definition of 'IS_NAN'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(74,1): warning C4005: 'Vector4Copy': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(556): message : see previous definition of 'Vector4Copy'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(88,1): warning C4005: 'Vector4Set': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(555): message : see previous definition of 'Vector4Set'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(98,1): warning C4005: 'VectorMA': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(527): message : see previous definition of 'VectorMA'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(91,38): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(91,48): error C2143: syntax error: missing ')' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(91,48): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(91,52): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(91,61): error C2059: syntax error: 'type'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(91,72): error C2059: syntax error: ')'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(161,73): error C2143: syntax error: missing ')' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(161,73): error C2081: 'ovrInputStateTrackedRemote': name in formal parameter list illegal
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(161,73): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(161,82): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(161,111): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(161,111): error C2143: syntax error: missing ';' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(161,111): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(161,120): error C2059: syntax error: ')'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(161,122): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(161,122): error C2054: expected '(' to follow 'oldState'
+  VrInputDefault.c
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(10,10): fatal error C1083: Cannot open include file: 'VrApi.h': No such file or directory
+  VrInputWeaponAlign.c
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(39,1): warning C4005: 'RAD2DEG': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(487): message : see previous definition of 'RAD2DEG'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(40,1): warning C4005: 'DEG2RAD': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(486): message : see previous definition of 'DEG2RAD'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(58,1): warning C4005: 'nanmask': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(494): message : see previous definition of 'nanmask'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(61,1): warning C4005: 'IS_NAN': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(495): message : see previous definition of 'IS_NAN'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(74,1): warning C4005: 'Vector4Copy': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(556): message : see previous definition of 'Vector4Copy'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(88,1): warning C4005: 'Vector4Set': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(555): message : see previous definition of 'Vector4Set'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(98,1): warning C4005: 'VectorMA': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(527): message : see previous definition of 'VectorMA'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(31,126): error C2143: syntax error: missing ')' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(31,126): error C2081: 'ovrTracking': name in formal parameter list illegal
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(31,126): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(31,145): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,41): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,27): error C2371: 'ovrInputState': redefinition; different basic types
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1299): message : see declaration of 'ovrInputState'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,41): error C2143: syntax error: missing ';' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,41): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,62): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,78): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,64): error C2371: 'ovrInputState': redefinition; different basic types
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1299): message : see declaration of 'ovrInputState'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,78): error C2143: syntax error: missing ';' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,78): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,99): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,112): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,112): error C2143: syntax error: missing ';' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,112): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,126): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(33,31): error C2059: syntax error: 'type'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(33,90): error C2059: syntax error: ')'
+  Generating Code...

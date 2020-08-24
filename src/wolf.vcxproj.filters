@@ -167,6 +167,24 @@
     <ClCompile Include="RTCWVR\RTCWVR_SurfaceView.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RTCWVR\mathlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTCWVR\matrixlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTCWVR\VrCompositor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTCWVR\VrInputCommon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTCWVR\VrInputDefault.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RTCWVR\VrInputWeaponAlign.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="A3D\a3dWrapperdp.h">

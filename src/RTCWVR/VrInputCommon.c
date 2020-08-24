@@ -7,19 +7,21 @@ Authors		:	Simon Brown
 
 *************************************************************************************/
 
-#include <VrApi.h>
-#include <VrApi_Helpers.h>
-#include <VrApi_SystemUtils.h>
-#include <VrApi_Input.h>
-#include <VrApi_Types.h>
+//#include <VrApi.h>
+//#include <VrApi_Helpers.h>
+//#include <VrApi_SystemUtils.h>
+//#include <VrApi_Input.h>
+//#include <VrApi_Types.h>
 
 #include "VrInput.h"
 
-#include <src/qcommon/qcommon.h>
-
+#include "../qcommon/qcommon.h"
+// CACTUS
+#include "../Oculus/Include/OVR_Platform.h"
+#include "../Oculus/Include/OVR_CAPI.h"
 //keys.h
 void Sys_QueEvent( int time, sysEventType_t type, int value, int value2, int ptrLength, void *ptr );
-void handleTrackedControllerButton(ovrInputStateTrackedRemote * trackedRemoteState, ovrInputStateTrackedRemote * prevTrackedRemoteState, uint32_t button, int key)
+void handleTrackedControllerButton(ovrInputState * trackedRemoteState, ovrInputState * prevTrackedRemoteState, uint32_t button, int key)
 {
     if ((trackedRemoteState->Buttons & button) != (prevTrackedRemoteState->Buttons & button))
     {

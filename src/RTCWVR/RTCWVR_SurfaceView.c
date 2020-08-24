@@ -86,7 +86,7 @@ int GPU_LEVEL			= 4;
 int NUM_MULTI_SAMPLES	= 1;
 float SS_MULTIPLIER    = 1.25f;
 
-jclass clazz;
+//jclass clazz;
 
 float radians(float deg) {
 	return (deg * M_PI) / 180.0;
@@ -347,7 +347,7 @@ static void ovrEgl_CreateContext( ovrEgl * egl, const ovrEgl * shareEgl )
 	EGLint numConfigs = 0;
 	if ( eglGetConfigs( egl->Display, configs, MAX_CONFIGS, &numConfigs ) == EGL_FALSE )
 	{
-		ALOGE( "        eglGetConfigs() failed: %s", EglErrorString( eglGetError() ) );
+		//ALOGE( "        eglGetConfigs() failed: %s", EglErrorString( eglGetError() ) );
 		return;
 	}
 	const EGLint configAttribs[] =
@@ -409,7 +409,7 @@ static void ovrEgl_CreateContext( ovrEgl * egl, const ovrEgl * shareEgl )
 	egl->Context = eglCreateContext( egl->Display, egl->Config, ( shareEgl != NULL ) ? shareEgl->Context : EGL_NO_CONTEXT, contextAttribs );
 	if ( egl->Context == EGL_NO_CONTEXT )
 	{
-		ALOGE( "        eglCreateContext() failed: %s", EglErrorString( eglGetError() ) );
+		//ALOGE( "        eglCreateContext() failed: %s", EglErrorString( eglGetError() ) );
 		return;
 	}
 	const EGLint surfaceAttribs[] =
@@ -422,7 +422,7 @@ static void ovrEgl_CreateContext( ovrEgl * egl, const ovrEgl * shareEgl )
 	egl->TinySurface = eglCreatePbufferSurface( egl->Display, egl->Config, surfaceAttribs );
 	if ( egl->TinySurface == EGL_NO_SURFACE )
 	{
-		ALOGE( "        eglCreatePbufferSurface() failed: %s", EglErrorString( eglGetError() ) );
+		//ALOGE( "        eglCreatePbufferSurface() failed: %s", EglErrorString( eglGetError() ) );
 		eglDestroyContext( egl->Display, egl->Context );
 		egl->Context = EGL_NO_CONTEXT;
 		return;
@@ -430,7 +430,7 @@ static void ovrEgl_CreateContext( ovrEgl * egl, const ovrEgl * shareEgl )
 	ALOGV( "        eglMakeCurrent( Display, TinySurface, TinySurface, Context )" );
 	if ( eglMakeCurrent( egl->Display, egl->TinySurface, egl->TinySurface, egl->Context ) == EGL_FALSE )
 	{
-		ALOGE( "        eglMakeCurrent() failed: %s", EglErrorString( eglGetError() ) );
+		//ALOGE( "        eglMakeCurrent() failed: %s", EglErrorString( eglGetError() ) );
 		eglDestroySurface( egl->Display, egl->TinySurface );
 		eglDestroyContext( egl->Display, egl->Context );
 		egl->Context = EGL_NO_CONTEXT;
@@ -459,7 +459,7 @@ static void ovrEgl_DestroyContext( ovrEgl * egl )
 	}
 	if ( egl->TinySurface != EGL_NO_SURFACE )
 	{
-		ALOGE( "        eglDestroySurface( Display, TinySurface )" );
+		//ALOGE( "        eglDestroySurface( Display, TinySurface )" );
 		if ( eglDestroySurface( egl->Display, egl->TinySurface ) == EGL_FALSE )
 		{
 			ALOGE( "        eglDestroySurface() failed: %s", EglErrorString( eglGetError() ) );
