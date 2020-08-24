@@ -19,9 +19,9 @@ Copyright	:	Copyright 2015 Oculus VR, LLC. All Rights reserved.
 #include <unistd.h>
 #include <pthread.h>
 #include <sys/prctl.h>					// for prctl( PR_SET_NAME )
-#include <android/log.h>
-#include <android/native_window_jni.h>	// for native window JNI
-#include <android/input.h>
+//#include <android/log.h>
+//#include <android/native_window_jni.h>	// for native window JNI
+//#include <android/input.h>
 
 #include "argtable3.h"
 #include "VrInput.h"

@@ -1,7 +1,7 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1288,5): warning MSB8012: TargetPath(C:\Unity\RTCW-PCVR\src\game\.\Release\game.dll) entspricht nicht dem OutputFile-Eigenschaftswert (C:\Unity\RTCW-PCVR\src\Release\qagamex86.dll) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1290,5): warning MSB8012: TargetName(game) entspricht nicht dem OutputFile-Eigenschaftswert (qagamex86) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1288,5): warning MSB8012: TargetPath(C:\Unity\RTCW-PCVR\src\game\.\Release\game.dll) does not match the Linker's OutputFile property value (C:\Unity\RTCW-PCVR\src\Release\qagamex86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1290,5): warning MSB8012: TargetName(game) does not match the Linker's OutputFile property value (qagamex86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
   Building game function table...
-     Bibliothek ".\Release/qagamex86.lib" und Objekt ".\Release/qagamex86.exp" werden erstellt.
-g_save.obj : error LNK2001: Nicht aufgelöstes externes Symbol "_SysMilliseconds".
-g_weapon.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "_LOGI" in Funktion "_Bullet_Fire".
-..\Release\qagamex86.dll : fatal error LNK1120: 2 nicht aufgelöste Externe
+     Creating library .\Release/qagamex86.lib and object .\Release/qagamex86.exp
+g_save.obj : error LNK2001: unresolved external symbol _SysMilliseconds
+g_weapon.obj : error LNK2019: unresolved external symbol _LOGI referenced in function _Bullet_Fire
+..\Release\qagamex86.dll : fatal error LNK1120: 2 unresolved externals

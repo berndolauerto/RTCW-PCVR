@@ -1,4 +1,22 @@
-﻿  OVR_PlatformLoader.cpp
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1288,5): warning MSB8012: TargetPath(C:\Unity\RTCW-PCVR\src\.\Release\wolf.exe) entspricht nicht dem OutputFile-Eigenschaftswert (C:\Unity\RTCW-PCVR\src\Release\WolfSP.exe) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1290,5): warning MSB8012: TargetName(wolf) entspricht nicht dem OutputFile-Eigenschaftswert (WolfSP) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
-LINK : fatal error LNK1181: Eingabedatei "LibOVRPlatform32_1.lib" kann nicht geöffnet werden.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1288,5): warning MSB8012: TargetPath(C:\Unity\RTCW-PCVR\src\.\Release\wolf.exe) does not match the Linker's OutputFile property value (C:\Unity\RTCW-PCVR\src\Release\WolfSP.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1290,5): warning MSB8012: TargetName(wolf) does not match the Linker's OutputFile property value (WolfSP). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+renderer.lib(tr_scene.obj) : error LNK2005: _invalidRequestID already defined in win_main.obj
+renderer.lib(tr_scene.obj) : error LNK2005: _invalidMessageID already defined in win_main.obj
+cl_cgame.obj : error LNK2019: unresolved external symbol _RTCWVR_Vibrate referenced in function _CL_CgameSystemCalls
+sv_game.obj : error LNK2001: unresolved external symbol _RTCWVR_Vibrate
+cl_cgame.obj : error LNK2019: unresolved external symbol _RTCWVR_ResyncClientYawWithGameYaw referenced in function _CL_InitCGame
+sv_ccmds.obj : error LNK2001: unresolved external symbol _RTCWVR_ResyncClientYawWithGameYaw
+sv_client.obj : error LNK2001: unresolved external symbol _RTCWVR_ResyncClientYawWithGameYaw
+cl_input.obj : error LNK2019: unresolved external symbol _RTCWVR_GetMove referenced in function _CL_CreateCmd
+cl_scrn.obj : error LNK2019: unresolved external symbol _RTCWVR_FrameSetup referenced in function _SCR_UpdateScreen
+cl_scrn.obj : error LNK2019: unresolved external symbol _RTCWVR_finishEyeBuffer referenced in function _SCR_UpdateScreen
+cl_scrn.obj : error LNK2019: unresolved external symbol _RTCWVR_processHaptics referenced in function _SCR_UpdateScreen
+cl_scrn.obj : error LNK2019: unresolved external symbol _RTCWVR_getHMDOrientation referenced in function _SCR_UpdateScreen
+cl_scrn.obj : error LNK2019: unresolved external symbol _RTCWVR_processMessageQueue referenced in function _SCR_UpdateScreen
+cl_scrn.obj : error LNK2019: unresolved external symbol _RTCWVR_getTrackedRemotesOrientation referenced in function _SCR_UpdateScreen
+renderer.lib(tr_scene.obj) : error LNK2019: unresolved external symbol _rotateAboutOrigin referenced in function _convertFromVR
+renderer.lib(tr_scene.obj) : error LNK2019: unresolved external symbol _RTCWVR_useScreenLayer referenced in function _RE_RenderScene
+renderer.lib(tr_scene.obj) : error LNK2019: unresolved external symbol _RTCWVR_getFrameIndex referenced in function _RE_RenderScene
+renderer.lib(tr_backend.obj) : error LNK2019: unresolved external symbol _RTCWVR_prepareEyeBuffer referenced in function _RB_DrawBuffer
+renderer.lib(tr_backend.obj) : error LNK2019: unresolved external symbol _GPUWaitSync referenced in function _RB_ExecuteRenderCommands
+.\Release\WolfSP.exe : fatal error LNK1120: 14 unresolved externals

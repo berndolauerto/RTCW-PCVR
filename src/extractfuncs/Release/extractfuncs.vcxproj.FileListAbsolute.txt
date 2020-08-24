@@ -1,2 +1,0 @@
-C:\Unity\RTCW-PCVR\src\extractfuncs\Release\extractfuncs.exe.lastcodeanalysissucceeded
-C:\Unity\RTCW-PCVR\src\extractfuncs\Release\NativeCodeAnalysis.read.1.tlog

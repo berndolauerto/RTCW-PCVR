@@ -10,25 +10,24 @@
   be_aas_route.c
   be_aas_routealt.c
   be_aas_routetable.c
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(172,28): warning C4245: "=": Konvertierung von "int" in "unsigned short", signed/unsigned-Konflikt.
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(322,25): warning C4459: Deklaration von "routetable" blendet globale Deklaration aus
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(147,27): message : Siehe Deklaration von "routetable"
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(832,25): warning C4456: Deklaration von "child" blendet vorherige lokale Deklaration aus
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(497,31): message : Siehe Deklaration von "child"
+C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(172,28): warning C4245: '=': conversion from 'int' to 'unsigned short', signed/unsigned mismatch
+C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(322,25): warning C4459: declaration of 'routetable' hides global declaration
+C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(147,27): message : see declaration of 'routetable'
+C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(832,25): warning C4456: declaration of 'child' hides previous local declaration
+C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(497,31): message : see declaration of 'child'
   be_aas_sample.c
   be_ai_char.c
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_char.c(240,37): warning C4389: "==": Konflikt zwischen "signed" und "unsigned"
+C:\Unity\RTCW-PCVR\src\botlib\be_ai_char.c(240,37): warning C4389: '==': signed/unsigned mismatch
   be_ai_chat.c
   be_ai_gen.c
   be_ai_goal.c
   be_ai_move.c
   be_ai_weap.c
   be_ai_weight.c
-  Kompilieren...
-  Code wird generiert...
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(1082): warning C4706: Zuweisung in bedingtem Ausdruck
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(969): warning C4706: Zuweisung in bedingtem Ausdruck
-  Kompilieren...
+  Generating Code...
+C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(1082): warning C4706: assignment within conditional expression
+C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(969): warning C4706: assignment within conditional expression
+  Compiling...
   be_ea.c
   be_interface.c
   l_crc.c
@@ -36,66 +35,9 @@ C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(969): warning C4706: Zuweisung
   l_log.c
   l_memory.c
   l_precomp.c
-C:\Unity\RTCW-PCVR\src\botlib\l_precomp.c(725,23): warning C4133: "Funktion": Inkompatible Typen - von "unsigned long *" zu "const time_t *const "
-C:\Unity\RTCW-PCVR\src\botlib\l_precomp.c(740,23): warning C4133: "Funktion": Inkompatible Typen - von "unsigned long *" zu "const time_t *const "
+C:\Unity\RTCW-PCVR\src\botlib\l_precomp.c(725,23): warning C4133: 'function': incompatible types - from 'unsigned long *' to 'const time_t *const '
+C:\Unity\RTCW-PCVR\src\botlib\l_precomp.c(740,23): warning C4133: 'function': incompatible types - from 'unsigned long *' to 'const time_t *const '
   l_script.c
   l_struct.c
-  Kompilieren...
-  Code wird generiert...
+  Generating Code...
   botlib.vcxproj -> C:\Unity\RTCW-PCVR\src\botlib\.\Release\botlib.lib
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_bspq3.c(307): warning C6031: Rückgabewert wird ignoriert: "sscanf".
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_cluster.c(822): warning C6262: Die Funktion verwendet "28760" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_debug.c(228): warning C6001: Nicht initialisierter Speicher "lines[BYTE:0]" wird verwendet.
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_debug.c(228): warning C6001: Nicht initialisierter Speicher "lines" wird verwendet.
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_debug.c(259): warning C6386: Pufferüberlauf beim Schreiben nach "bboxcorners[4]":  die schreibbare Größe beträgt "12" Byte, es können jedoch "48" Byte geschrieben werden.
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_debug.c(259): warning C6385: Lesen ungültiger Daten von "bboxcorners[0]":  die lesbare Größe beträgt "12" Byte, es können jedoch "48" Byte gelesen werden.
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_debug.c(278): warning C6001: Nicht initialisierter Speicher "lines[BYTE:0]" wird verwendet.
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_debug.c(278): warning C6001: Nicht initialisierter Speicher "lines" wird verwendet.
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_debug.c(684): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_main.c(367): warning C6059: Falsch verwendeter Längenparameter im Aufruf von "strncat".  Übergeben Sie die Anzahl der verbleibenden Zeichen, nicht die Puffergröße von "this_mapname".
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_main.c(367): warning C6053: Durch den vorherigen Aufruf von "strncpy" wird die Zeichenfolge "this_mapname" möglicherweise nicht mit 0 (null) beendet.
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_move.c(403): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_move.c(403): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_move.c(644): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_move.c(905): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_move.c(905): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_move.c(905): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_reach.c(1022): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_reach.c(2097): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_reach.c(2131): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_reach.c(2152): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_reach.c(2363): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_reach.c(3536): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_reach.c(3536): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_reach.c(3643): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_reach.c(3643): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_reach.c(3734): warning C6001: Nicht initialisierter Speicher "areastart" wird verwendet.
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_reach.c(4201): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_route.c(365): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_route.c(1128): warning C28182: Dereferenzierender NULL-Zeiger. "cache" enthält den gleichen NULL-Wert wie "*aasworld.clusterareacache[cache->cluster][clusterareanum]". In Zeile 1122 finden Sie einen früheren Ort, an dem dies vorkommen kann.
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(89): warning C6387: "ptr" könnte "0" sein:  dies entspricht nicht der Spezifikation für Funktion "memset". 
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_routetable.c(485): warning C6262: Die Funktion verwendet "32980" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_sample.c(482): warning C6001: Nicht initialisierter Speicher "v1" wird verwendet.
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_sample.c(534): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_aas_sample.c(535): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_chat.c(1223): warning C28182: Dereferenzierender NULL-Zeiger. "matchpiece" enthält den gleichen NULL-Wert wie "lastpiece". In Zeile 1209 finden Sie einen früheren Ort, an dem dies vorkommen kann.
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_chat.c(1232): warning C28182: Dereferenzierender NULL-Zeiger. "matchstring" enthält den gleichen NULL-Wert wie "matchpiece->firststring". 
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_chat.c(1337): warning C28182: Dereferenzierender NULL-Zeiger. "matchtemplate" enthält den gleichen NULL-Wert wie "lastmatch". In Zeile 1329 finden Sie einen früheren Ort, an dem dies vorkommen kann.
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_goal.c(683): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_move.c(989): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_move.c(1134): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_move.c(1225): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_move.c(1647): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_move.c(1908): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_move.c(1969): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_move.c(3309): warning C6287: Redundanter Code:  Die Teilausdrücke links und rechts sind identisch.
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_weight.c(232): warning C28182: Dereferenzierender NULL-Zeiger. "fs" enthält den gleichen NULL-Wert wie "lastfs". In Zeile 212 finden Sie einen früheren Ort, an dem dies vorkommen kann.
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_weight.c(777): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\be_ai_weight.c(778): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\l_libvar.c(73): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\l_precomp.c(339): warning C6387: "source->tokens" könnte "0" sein:  dies entspricht nicht der Spezifikation für Funktion "memcpy". 
-C:\Unity\RTCW-PCVR\src\botlib\l_precomp.c(342): warning C6011: Dereferenzierender NULL-Zeiger "source->tokens". In Zeile 339 finden Sie einen früheren Ort, an dem dies vorkommen kann.
-C:\Unity\RTCW-PCVR\src\botlib\l_precomp.c(830): warning C6001: Nicht initialisierter Speicher "parms" wird verwendet.
-C:\Unity\RTCW-PCVR\src\botlib\l_precomp.c(991): warning C6059: Falsch verwendeter Längenparameter im Aufruf von "strncat".  Übergeben Sie die Anzahl der verbleibenden Zeichen, nicht die Puffergröße von "path".
-C:\Unity\RTCW-PCVR\src\botlib\l_script.c(593): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\botlib\l_script.c(599): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).

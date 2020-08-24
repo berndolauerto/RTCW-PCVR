@@ -6,36 +6,5 @@
   q_shared.cpp
   splines.cpp
   util_str.cpp
-  Kompilieren...
-  Code wird generiert...
+  Generating Code...
   Splines.vcxproj -> C:\Unity\RTCW-PCVR\src\splines\.\Release\Splines.lib
-C:\Unity\RTCW-PCVR\src\splines\math_vector.h(142): warning C26495: Die Variable "idVec3::z" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).
-C:\Unity\RTCW-PCVR\src\splines\math_vector.h(552): warning C26495: Die Variable "idVec4::dist" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).
-C:\Unity\RTCW-PCVR\src\splines\math_angles.h(92): warning C26495: Die Variable "angles_t::roll" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).
-C:\Unity\RTCW-PCVR\src\splines\math_quaternion.h(81): warning C26495: Die Variable "quat_t::z" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).
-C:\Unity\RTCW-PCVR\src\splines\math_angles.cpp(51): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\splines\math_quaternion.cpp(57): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\splines\math_quaternion.cpp(76): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\splines\math_quaternion.cpp(76): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\splines\math_vector.cpp(74): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "+" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "+" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\splines\math_vector.cpp(74): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\splines\math_vector.cpp(122): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\splines\q_parse.cpp(105): warning C6262: Die Funktion verwendet "32008" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.
-C:\Unity\RTCW-PCVR\src\splines\q_parse.cpp(116): warning C6262: Die Funktion verwendet "32008" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.
-C:\Unity\RTCW-PCVR\src\splines\q_parse.cpp(140): warning C26812: Der Enumerationstyp "qboolean" umfasst keine Bereichseinschränkung. Geben Sie "enum class" Vorrang vor "enum" (Enum.3).
-C:\Unity\RTCW-PCVR\src\splines\q_shared.cpp(85): warning C6387: "list->elements" könnte "0" sein:  dies entspricht nicht der Spezifikation für Funktion "memcpy". 
-C:\Unity\RTCW-PCVR\src\splines\q_shared.cpp(558): warning C6387: "src" könnte "0" sein:  dies entspricht nicht der Spezifikation für Funktion "strncpy". 
-C:\Unity\RTCW-PCVR\src\splines\q_shared.cpp(686): warning C28182: Dereferenzierender NULL-Zeiger. "d" enthält den gleichen NULL-Wert wie "s". In Zeile 678 finden Sie einen früheren Ort, an dem dies vorkommen kann.
-C:\Unity\RTCW-PCVR\src\splines\q_shared.cpp(692): warning C6262: Die Funktion verwendet "32020" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.
-C:\Unity\RTCW-PCVR\src\splines\q_shared.cpp(917): warning C26812: Der Enumerationstyp "qboolean" umfasst keine Bereichseinschränkung. Geben Sie "enum class" Vorrang vor "enum" (Enum.3).
-C:\Unity\RTCW-PCVR\src\splines\splines.h(399): warning C26495: Die Variable "idCameraPosition::startTime" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).
-C:\Unity\RTCW-PCVR\src\splines\splines.h(505): warning C26812: Der Enumerationstyp "idCameraPosition::positionType" umfasst keine Bereichseinschränkung. Geben Sie "enum class" Vorrang vor "enum" (Enum.3).
-C:\Unity\RTCW-PCVR\src\splines\splines.h(728): warning C26495: Die Variable "idCameraFOV::startFOV" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).
-C:\Unity\RTCW-PCVR\src\splines\splines.h(734): warning C26495: Die Variable "idCameraFOV::startFOV" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).
-C:\Unity\RTCW-PCVR\src\splines\splines.h(740): warning C26495: Die Variable "idCameraFOV::startTime" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).
-C:\Unity\RTCW-PCVR\src\splines\splines.h(823): warning C26812: Der Enumerationstyp "idCameraEvent::eventType" umfasst keine Bereichseinschränkung. Geben Sie "enum class" Vorrang vor "enum" (Enum.3).
-C:\Unity\RTCW-PCVR\src\splines\splines.cpp(60): warning C26812: Der Enumerationstyp "qboolean" umfasst keine Bereichseinschränkung. Geben Sie "enum class" Vorrang vor "enum" (Enum.3).
-C:\Unity\RTCW-PCVR\src\splines\splines.cpp(420): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "*" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "*" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\splines\splines.cpp(418): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\splines\util_list.h(203): warning C6386: Pufferüberlauf beim Schreiben nach "m_list":  die schreibbare Größe beträgt "m_size*4" Byte, es können jedoch "8" Byte geschrieben werden.
-C:\Unity\RTCW-PCVR\src\splines\util_str.cpp(429): warning C6262: Die Funktion verwendet "65556" Bytes vom Stapel und überschreitet /analyze:stacksize "16384". Verschieben Sie einige Daten auf den Heap.

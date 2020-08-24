@@ -2,34 +2,13 @@
   l_log.c
   l_memory.c
   l_precomp.c
-C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(132,15): warning C4013: "tolower" undefiniert; Annahme: extern mit Rückgabetyp int
-C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(143,15): warning C4013: "toupper" undefiniert; Annahme: extern mit Rückgabetyp int
-C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(814,19): warning C4244: "=": Konvertierung von "time_t" in "unsigned long", möglicher Datenverlust
-C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(815,23): warning C4133: "Funktion": Inkompatible Typen - von "unsigned long *" zu "const time_t *const "
-C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(829,19): warning C4244: "=": Konvertierung von "time_t" in "unsigned long", möglicher Datenverlust
-C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(830,23): warning C4133: "Funktion": Inkompatible Typen - von "unsigned long *" zu "const time_t *const "
+C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(132,15): warning C4013: 'tolower' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(143,15): warning C4013: 'toupper' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(814,19): warning C4244: '=': conversion from 'time_t' to 'unsigned long', possible loss of data
+C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(815,23): warning C4133: 'function': incompatible types - from 'unsigned long *' to 'const time_t *const '
+C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(829,19): warning C4244: '=': conversion from 'time_t' to 'unsigned long', possible loss of data
+C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(830,23): warning C4133: 'function': incompatible types - from 'unsigned long *' to 'const time_t *const '
   l_script.c
-  Kompilieren...
-  Code wird generiert...
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1288,5): warning MSB8012: TargetPath(C:\Unity\RTCW-PCVR\src\extractfuncs\.\Release\extractfuncs.exe) entspricht nicht dem OutputFile-Eigenschaftswert (C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.exe) von Linker. Das Projekt wird daher möglicherweise nicht ordnungsgemäß erstellt. Damit dieses Problem behoben werden kann, müssen die Eigenschaftswerte für $(OutDir), $(TargetName) und $(TargetExt) dem in %(Link.OutputFile) angegebenen Wert entsprechen.
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1288,5): warning MSB8012: TargetPath(C:\Unity\RTCW-PCVR\src\extractfuncs\.\Release\extractfuncs.exe) does not match the Linker's OutputFile property value (C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
   extractfuncs.vcxproj -> C:\Unity\RTCW-PCVR\src\extractfuncs\.\Release\extractfuncs.exe
-C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.c(204): warning C6031: Rückgabewert wird ignoriert: "rename".
-C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.c(219): warning C6031: Rückgabewert wird ignoriert: "rename".
-C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.c(263): warning C6031: Rückgabewert wird ignoriert: "rename".
-C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.c(279): warning C6031: Rückgabewert wird ignoriert: "rename".
-C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.c(223): warning C6001: Nicht initialisierter Speicher "newbuf" wird verwendet.
-C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.c(251): warning C6386: Pufferüberlauf beim Schreiben nach "newbuf":  die schreibbare Größe beträgt "newlen+1" Byte, es können jedoch "4294967295" Byte geschrieben werden.
-C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.c(251): warning C6387: "newbuf" könnte "0" sein:  dies entspricht nicht der Spezifikation für Funktion "fread". 
-C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.c(252): warning C6011: Dereferenzierender NULL-Zeiger "newbuf". In Zeile 251 finden Sie einen früheren Ort, an dem dies vorkommen kann.
-C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.c(182): warning C6386: Pufferüberlauf beim Schreiben nach "buf":  die schreibbare Größe beträgt "len+1" Byte, es können jedoch "4294967295" Byte geschrieben werden.
-C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.c(483): warning C6001: Nicht initialisierter Speicher "lasttoken" wird verwendet.
-C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.c(576): warning C6387: "fp" könnte "0" sein:  dies entspricht nicht der Spezifikation für Funktion "fputc". 
-C:\Unity\RTCW-PCVR\src\extractfuncs\extractfuncs.c(587): warning C6387: "fp" könnte "0" sein:  dies entspricht nicht der Spezifikation für Funktion "fclose". 
-C:\Unity\RTCW-PCVR\src\bspc\l_cmd.h(69): warning C28251: Inkonsistente Anmerkung für "strupr": diese Instanz verfügt über keine Anmerkungen. Siehe c:\program files (x86)\windows kits\10\include\10.0.18362.0\ucrt\string.h(584). 
-C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(72): warning C6387: "src" könnte "0" sein:  dies entspricht nicht der Spezifikation für Funktion "strncpy". 
-C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(429): warning C6387: "source->tokens" könnte "0" sein:  dies entspricht nicht der Spezifikation für Funktion "memcpy". 
-C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(432): warning C6011: Dereferenzierender NULL-Zeiger "source->tokens". In Zeile 429 finden Sie einen früheren Ort, an dem dies vorkommen kann.
-C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(920): warning C6001: Nicht initialisierter Speicher "parms" wird verwendet.
-C:\Unity\RTCW-PCVR\src\extractfuncs\l_precomp.c(1081): warning C6059: Falsch verwendeter Längenparameter im Aufruf von "strncat".  Übergeben Sie die Anzahl der verbleibenden Zeichen, nicht die Puffergröße von "path".
-C:\Unity\RTCW-PCVR\src\extractfuncs\l_script.c(586): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
-C:\Unity\RTCW-PCVR\src\extractfuncs\l_script.c(592): warning C26451: Arithmetischer Überlauf: Wenn Sie den Operator "-" für einen 4-Bytewert verwenden und das Ergebnis in einen 8-Bytewert umwandeln, wandeln Sie den Wert in den breiteren Typ um, bevor Sie den Operator "-" verwenden, um einen Überlauf zu vermeiden (io.2).
