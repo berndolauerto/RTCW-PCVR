@@ -224,7 +224,127 @@ C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(161,120): error C2059: syntax erro
 C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(161,122): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
 C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputCommon.c(161,122): error C2054: expected '(' to follow 'oldState'
   VrInputDefault.c
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(10,10): fatal error C1083: Cannot open include file: 'VrApi.h': No such file or directory
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(39,1): warning C4005: 'RAD2DEG': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(487): message : see previous definition of 'RAD2DEG'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(40,1): warning C4005: 'DEG2RAD': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(486): message : see previous definition of 'DEG2RAD'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(58,1): warning C4005: 'nanmask': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(494): message : see previous definition of 'nanmask'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(61,1): warning C4005: 'IS_NAN': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(495): message : see previous definition of 'IS_NAN'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(74,1): warning C4005: 'Vector4Copy': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(556): message : see previous definition of 'Vector4Copy'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(88,1): warning C4005: 'Vector4Set': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(555): message : see previous definition of 'Vector4Set'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(98,1): warning C4005: 'VectorMA': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(527): message : see previous definition of 'VectorMA'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(34,119): warning C4028: formal parameter 6 different from declaration
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(65,58): error C2039: 'Joystick': is not a member of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1229): message : see declaration of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(66,51): error C2039: 'Joystick': is not a member of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1229): message : see declaration of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(70,56): error C2039: 'Joystick': is not a member of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1229): message : see declaration of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(71,53): error C2039: 'Joystick': is not a member of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1229): message : see declaration of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(80,46): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(80,72): error C2440: 'function': cannot convert from 'vec3_t' to 'ovrQuatf'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(80,72): warning C4024: 'QuatToYawPitchRoll': different types for formal and actual parameter 1
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(80,95): error C2198: 'QuatToYawPitchRoll': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(82,46): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(82,72): error C2440: 'function': cannot convert from 'vec3_t' to 'ovrQuatf'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(82,72): warning C4024: 'QuatToYawPitchRoll': different types for formal and actual parameter 1
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(82,89): error C2198: 'QuatToYawPitchRoll': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(102,110): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(110,27): error C2039: 'Status': is not a member of 'ovrTrackingState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(619): message : see declaration of 'ovrTrackingState_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(110,76): error C2065: 'VRAPI_TRACKING_STATUS_POSITION_TRACKED': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(110,114): error C2065: 'VRAPI_TRACKING_STATUS_POSITION_VALID': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(136,52): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(136,88): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(136,106): error C2198: 'powf': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(137,52): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(137,88): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(137,106): error C2198: 'powf': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(138,52): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(138,88): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(138,106): error C2198: 'powf': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(140,80): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(140,98): error C2198: 'powf': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(141,80): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(141,98): error C2198: 'powf': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(142,80): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(142,98): error C2198: 'powf': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(145,67): error C2065: 'ovrButton_GripTrigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(146,67): error C2065: 'ovrButton_GripTrigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(148,70): error C2065: 'ovrButton_GripTrigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(191,37): error C2039: 'Status': is not a member of 'ovrTrackingState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(619): message : see declaration of 'ovrTrackingState_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(191,86): error C2065: 'VRAPI_TRACKING_STATUS_POSITION_TRACKED': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(191,124): error C2065: 'VRAPI_TRACKING_STATUS_POSITION_VALID': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(211,52): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(212,52): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(213,52): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(243,42): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(243,78): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(244,42): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(244,78): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(245,42): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(245,78): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(270,36): error C2039: 'Status': is not a member of 'ovrTrackingState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(619): message : see declaration of 'ovrTrackingState_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(270,85): error C2065: 'VRAPI_TRACKING_STATUS_POSITION_TRACKED': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(270,123): error C2065: 'VRAPI_TRACKING_STATUS_POSITION_VALID': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(281,56): error C2065: 'ovrButton_GripTrigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(355,50): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(356,50): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(357,50): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(360,47): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(360,73): error C2440: 'function': cannot convert from 'vec3_t' to 'ovrQuatf'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(360,73): warning C4024: 'QuatToYawPitchRoll': different types for formal and actual parameter 1
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(360,91): error C2198: 'QuatToYawPitchRoll': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(397,76): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(398,76): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(401,83): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(415,83): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(424,89): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(435,76): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(436,76): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(439,85): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(445,79): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(447,86): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(490,73): error C2065: 'ovrButton_Joystick': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(491,73): error C2065: 'ovrButton_Joystick': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(494,90): error C2065: 'ovrButton_Joystick': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(557,68): error C2065: 'ovrButton_Joystick': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(558,68): error C2065: 'ovrButton_Joystick': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(559,94): error C2065: 'ovrButton_Joystick': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(569,64): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputDefault.c(571,70): error C2065: 'ovrButton_Trigger': undeclared identifier
   VrInputWeaponAlign.c
 C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(39,1): warning C4005: 'RAD2DEG': macro redefinition
 C:\Unity\RTCW-PCVR\src\game\q_shared.h(487): message : see previous definition of 'RAD2DEG'
@@ -240,26 +360,61 @@ C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(88,1): warning C4005: 'Vector4Set': macr
 C:\Unity\RTCW-PCVR\src\game\q_shared.h(555): message : see previous definition of 'Vector4Set'
 C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(98,1): warning C4005: 'VectorMA': macro redefinition
 C:\Unity\RTCW-PCVR\src\game\q_shared.h(527): message : see previous definition of 'VectorMA'
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(31,126): error C2143: syntax error: missing ')' before '*'
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(31,126): error C2081: 'ovrTracking': name in formal parameter list illegal
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(31,126): error C2143: syntax error: missing '{' before '*'
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(31,145): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,41): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,27): error C2371: 'ovrInputState': redefinition; different basic types
-C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1299): message : see declaration of 'ovrInputState'
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,41): error C2143: syntax error: missing ';' before '*'
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,41): warning C4218: nonstandard extension used: must specify at least a storage class or a type
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,62): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,78): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,64): error C2371: 'ovrInputState': redefinition; different basic types
-C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1299): message : see declaration of 'ovrInputState'
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,78): error C2143: syntax error: missing ';' before '*'
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,78): warning C4218: nonstandard extension used: must specify at least a storage class or a type
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,99): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,112): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,112): error C2143: syntax error: missing ';' before '*'
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,112): warning C4218: nonstandard extension used: must specify at least a storage class or a type
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(32,126): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(33,31): error C2059: syntax error: 'type'
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(33,90): error C2059: syntax error: ')'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(57,56): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(57,82): error C2440: 'function': cannot convert from 'vec3_t' to 'ovrQuatf'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(57,82): warning C4024: 'QuatToYawPitchRoll': different types for formal and actual parameter 1
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(57,105): error C2198: 'QuatToYawPitchRoll': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(59,56): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(59,82): error C2440: 'function': cannot convert from 'vec3_t' to 'ovrQuatf'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(59,82): warning C4024: 'QuatToYawPitchRoll': different types for formal and actual parameter 1
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(59,99): error C2198: 'QuatToYawPitchRoll': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(79,110): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(89,62): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(90,62): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(91,62): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(98,58): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(99,58): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(100,58): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(103,55): error C2039: 'Pose': is not a member of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(354): message : see declaration of 'ovrPoseStatef_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(103,81): error C2440: 'function': cannot convert from 'vec3_t' to 'ovrQuatf'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(103,81): warning C4024: 'QuatToYawPitchRoll': different types for formal and actual parameter 1
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(103,99): error C2198: 'QuatToYawPitchRoll': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(125,52): error C2065: 'ovrButton_GripTrigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(132,73): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(133,72): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(134,75): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(143,72): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(144,72): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(146,100): error C2065: 'ovrButton_Trigger': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(172,55): error C2039: 'Joystick': is not a member of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1229): message : see declaration of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(172,71): error C2198: 'between': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(173,55): error C2039: 'Joystick': is not a member of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1229): message : see declaration of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(173,71): error C2198: 'between': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(174,56): error C2039: 'Joystick': is not a member of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1229): message : see declaration of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(174,73): error C2198: 'between': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(177,62): error C2039: 'Joystick': is not a member of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1229): message : see declaration of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(177,78): error C2198: 'between': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(195,70): error C2065: 'ovrButton_Joystick': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(196,69): error C2065: 'ovrButton_Joystick': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(197,73): error C2065: 'ovrButton_Joystick': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(212,59): error C2039: 'Joystick': is not a member of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1229): message : see declaration of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(212,75): error C2198: 'between': too few arguments for call
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(214,48): error C2039: 'Joystick': is not a member of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1229): message : see declaration of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrInputWeaponAlign.c(218,48): error C2039: 'Joystick': is not a member of 'ovrInputState_'
+C:\Unity\RTCW-PCVR\src\Oculus\Include\OVR_CAPI.h(1229): message : see declaration of 'ovrInputState_'
   Generating Code...

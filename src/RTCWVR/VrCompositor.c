@@ -8,25 +8,27 @@ Filename	:	VrCompositor.c
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
-#include <unistd.h>
-#include <pthread.h>
-#include <sys/prctl.h>					// for prctl( PR_SET_NAME )
-#include <android/log.h>
-#include <android/window.h>				// for AWINDOW_FLAG_KEEP_SCREEN_ON
+#include <time.h>
+#include "unistd.h"				// Cactus
+//#include <sys/prctl.h>					// for prctl( PR_SET_NAME )
+//#include <android/log.h>
+//#include <android/window.h>				// for AWINDOW_FLAG_KEEP_SCREEN_ON
 
-#include <EGL/egl.h>
-#include <EGL/eglext.h>
-#include <GLES3/gl3.h>
-#include <GLES3/gl3ext.h>
+#include "egl.h"				// Cactus - Android Stuff
+#include "eglext.h"			// Cactus - Android Stuff
+#include "GLES3/gl3.h"			// Cactus - Android Stuff
+#include "GLES3/gl3ext.h"// Cactus - Android Stuff
 
 
 
-#include <VrApi.h>
-#include <VrApi_Helpers.h>
+//#include <VrApi.h>
+//#include <VrApi_Helpers.h>
 
 #include "VrCompositor.h"
 
-
+// CACTUS
+#include "../Oculus/Include/OVR_Platform.h"
+#include "../Oculus/Include/OVR_CAPI.h"
 
 /*
 ================================================================================
