@@ -1,4 +1,4 @@
-NOT WORKING PCVR FORK OF Dr. BEEFS RTCW QUEST. 
+NOT WORKING PCVR FORK OF Dr. BEEFS RTCW QUEST. I'm woking on it, but may never succeed. ¯\_(ツ)_/¯
 
 ![tried](https://github.com/berndolauerto/RTCW-PCVR/blob/master/assets/tried.jpg)
 
