@@ -191,7 +191,65 @@ C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1420,15): error C2224: left o
 C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1425,48): error C2065: 'gAppState': undeclared identifier
 C:\Unity\RTCW-PCVR\src\RTCWVR\RTCWVR_SurfaceView.c(1425,48): fatal error C1003: error count exceeds 100; stopping compilation
   VrCompositor.c
-C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(11,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory
+C:\Unity\RTCW-PCVR\src\RTCWVR\GLES3\gl3platform.h(17,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(598,1): warning C4005: 'random': macro redefinition
+C:\Unity\RTCW-PCVR\src\RTCWVR\unistd.h(16): message : see previous definition of 'random'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(39,1): warning C4005: 'RAD2DEG': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(487): message : see previous definition of 'RAD2DEG'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(40,1): warning C4005: 'DEG2RAD': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(486): message : see previous definition of 'DEG2RAD'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(58,1): warning C4005: 'nanmask': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(494): message : see previous definition of 'nanmask'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(61,1): warning C4005: 'IS_NAN': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(495): message : see previous definition of 'IS_NAN'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(74,1): warning C4005: 'Vector4Copy': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(556): message : see previous definition of 'Vector4Copy'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(88,1): warning C4005: 'Vector4Set': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(555): message : see previous definition of 'Vector4Set'
+C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(98,1): warning C4005: 'VectorMA': macro redefinition
+C:\Unity\RTCW-PCVR\src\game\q_shared.h(527): message : see previous definition of 'VectorMA'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(93,79): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(93,87): error C2143: syntax error: missing ')' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(93,87): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(93,94): error C2059: syntax error: ')'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(93,95): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(93,95): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(190,70): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(190,78): error C2143: syntax error: missing ')' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(190,78): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(190,85): error C2059: syntax error: ')'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(190,86): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(190,86): warning C4218: nonstandard extension used: must specify at least a storage class or a type
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(201,21): error C2061: syntax error: identifier 'ovrRenderer_RenderGroundPlaneToEyeBuffer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(201,21): error C2059: syntax error: ';'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(201,75): error C2059: syntax error: '<parameter-list>'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(204,21): error C2061: syntax error: identifier 'ovrRenderer_RenderToEyeBuffer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(204,21): error C2059: syntax error: ';'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(204,64): error C2059: syntax error: '<parameter-list>'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(207,19): error C2061: syntax error: identifier 'BuildCylinderLayer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(207,19): error C2059: syntax error: ';'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.h(207,51): error C2059: syntax error: '<parameter-list>'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(86,70): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(86,78): error C2143: syntax error: missing ')' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(86,78): error C2143: syntax error: missing '{' before '*'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(86,85): error C2059: syntax error: ')'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(87,1): warning C4431: missing type specifier - int assumed. Note: C no longer supports default-int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(87,1): error C2054: expected '(' to follow 'java'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(124,57): warning C4013: 'ovrMatrix4f_CreateScale' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(124,104): error C2065: 'VRAPI_PI': undeclared identifier
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(125,63): warning C4013: 'ovrMatrix4f_CreateTranslation' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(126,59): warning C4013: 'ovrMatrix4f_CreateRotation' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(129,45): warning C4013: 'ovrMatrix4f_Multiply' undefined; assuming extern returning int
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(124,1): error C2440: 'initializing': cannot convert from 'int' to 'const ovrMatrix4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(125,1): error C2440: 'initializing': cannot convert from 'int' to 'const ovrMatrix4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(126,1): error C2440: 'initializing': cannot convert from 'int' to 'const ovrMatrix4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(127,1): error C2440: 'initializing': cannot convert from 'int' to 'const ovrMatrix4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(129,1): error C2440: 'initializing': cannot convert from 'int' to 'const ovrMatrix4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(130,1): error C2440: 'initializing': cannot convert from 'int' to 'const ovrMatrix4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(131,1): error C2440: 'initializing': cannot convert from 'int' to 'const ovrMatrix4f'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(136,19): error C2061: syntax error: identifier 'BuildCylinderLayer'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(136,19): error C2059: syntax error: ';'
+C:\Unity\RTCW-PCVR\src\RTCWVR\VrCompositor.c(136,51): error C2059: syntax error: '<parameter-list>'
   VrInputCommon.c
 C:\Unity\RTCW-PCVR\src\RTCWVR\mathlib.h(39,1): warning C4005: 'RAD2DEG': macro redefinition
 C:\Unity\RTCW-PCVR\src\game\q_shared.h(487): message : see previous definition of 'RAD2DEG'

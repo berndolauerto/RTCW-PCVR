@@ -28,7 +28,7 @@ cvar_t	*sv_cheats;
 
 void CG_CenterPrint( const char *str, int y, int charWidth );
 
-void HandleInput_WeaponAlign( ovrInputState *pDominantTrackedRemoteNew, ovrInputState *pDominantTrackedRemoteOld, ovrTrackingState* pDominantTracking,
+void HandleInput_WeaponAlign( ovrInputState *pDominantTrackedRemoteNew, ovrInputState *pDominantTrackedRemoteOld, ovrTrackingState* pDominantTracking,  //OVRInputState isn't a suiteable replacement. needs further invesetitgations for pcvr
                           ovrInputState *pOffTrackedRemoteNew, ovrInputState *pOffTrackedRemoteOld, ovrTrackingState* pOffTracking,
                           int domButton1, int domButton2, int offButton1, int offButton2 )
 
